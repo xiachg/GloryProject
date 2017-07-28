@@ -1,0 +1,6 @@
+framework module JftMergeSDK {
+  umbrella header "JftMergeSDK.h"
+
+  export *
+  module * { export * }
+}

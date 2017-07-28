@@ -1,0 +1,931 @@
+<Solution>
+  <PropertyGroup Name="fishyqs" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="bank_res">
+          <Image Name="bank_title.png" />
+          <Image Name="bt_getout_0.png" />
+          <Image Name="bt_getout_1.png" />
+          <Image Name="bt_open_0.png" />
+          <Image Name="bt_open_1.png" />
+          <Image Name="edit_frame.png" />
+          <Image Name="im_arrow.png" />
+          <Image Name="im_gold.png" />
+          <Image Name="im_money.png" />
+        </Folder>
+        <Folder Name="game_res">
+          <PlistImageFolder Image="blue.png" PListFile="blue.plist" Name=".blue_PList.Dir">
+            <PlistImageFile Name="blue00.png" Key="blue00.png" />
+            <PlistImageFile Name="blue01.png" Key="blue01.png" />
+            <PlistImageFile Name="blue02.png" Key="blue02.png" />
+            <PlistImageFile Name="blue03.png" Key="blue03.png" />
+            <PlistImageFile Name="blue04.png" Key="blue04.png" />
+            <PlistImageFile Name="blue05.png" Key="blue05.png" />
+            <PlistImageFile Name="blue06.png" Key="blue06.png" />
+            <PlistImageFile Name="blue07.png" Key="blue07.png" />
+            <PlistImageFile Name="blue08.png" Key="blue08.png" />
+            <PlistImageFile Name="blue09.png" Key="blue09.png" />
+            <PlistImageFile Name="blue10.png" Key="blue10.png" />
+            <PlistImageFile Name="blue11.png" Key="blue11.png" />
+            <PlistImageFile Name="blue12.png" Key="blue12.png" />
+            <PlistImageFile Name="blue13.png" Key="blue13.png" />
+            <PlistImageFile Name="blue14.png" Key="blue14.png" />
+            <PlistImageFile Name="blue15.png" Key="blue15.png" />
+            <PlistImageFile Name="blue16.png" Key="blue16.png" />
+            <PlistImageFile Name="blue17.png" Key="blue17.png" />
+            <PlistImageFile Name="blue18.png" Key="blue18.png" />
+            <PlistImageFile Name="blue19.png" Key="blue19.png" />
+            <PlistImageFile Name="blue20.png" Key="blue20.png" />
+            <PlistImageFile Name="blue21.png" Key="blue21.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="bomb.png" PListFile="bomb.plist" Name=".bomb_PList.Dir">
+            <PlistImageFile Name="boom00.png" Key="boom00.png" />
+            <PlistImageFile Name="boom01.png" Key="boom01.png" />
+            <PlistImageFile Name="boom02.png" Key="boom02.png" />
+            <PlistImageFile Name="boom03.png" Key="boom03.png" />
+            <PlistImageFile Name="boom04.png" Key="boom04.png" />
+            <PlistImageFile Name="boom05.png" Key="boom05.png" />
+            <PlistImageFile Name="boom06.png" Key="boom06.png" />
+            <PlistImageFile Name="boom07.png" Key="boom07.png" />
+            <PlistImageFile Name="boom08.png" Key="boom08.png" />
+            <PlistImageFile Name="boom09.png" Key="boom09.png" />
+            <PlistImageFile Name="boom10.png" Key="boom10.png" />
+            <PlistImageFile Name="boom11.png" Key="boom11.png" />
+            <PlistImageFile Name="boom12.png" Key="boom12.png" />
+            <PlistImageFile Name="boom13.png" Key="boom13.png" />
+            <PlistImageFile Name="boom14.png" Key="boom14.png" />
+            <PlistImageFile Name="boom15.png" Key="boom15.png" />
+            <PlistImageFile Name="boom16.png" Key="boom16.png" />
+            <PlistImageFile Name="boom17.png" Key="boom17.png" />
+            <PlistImageFile Name="boom18.png" Key="boom18.png" />
+            <PlistImageFile Name="boom19.png" Key="boom19.png" />
+            <PlistImageFile Name="boom20.png" Key="boom20.png" />
+            <PlistImageFile Name="boom21.png" Key="boom21.png" />
+            <PlistImageFile Name="boom22.png" Key="boom22.png" />
+            <PlistImageFile Name="boom23.png" Key="boom23.png" />
+            <PlistImageFile Name="boom24.png" Key="boom24.png" />
+            <PlistImageFile Name="boom25.png" Key="boom25.png" />
+            <PlistImageFile Name="boom26.png" Key="boom26.png" />
+            <PlistImageFile Name="boom27.png" Key="boom27.png" />
+            <PlistImageFile Name="boom28.png" Key="boom28.png" />
+            <PlistImageFile Name="boom29.png" Key="boom29.png" />
+            <PlistImageFile Name="boom30.png" Key="boom30.png" />
+            <PlistImageFile Name="boom31.png" Key="boom31.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="boom_darts.png" PListFile="boom_darts.plist" Name=".boom_darts_PList.Dir">
+            <PlistImageFile Name="boom_darts0.png" Key="boom_darts0.png" />
+            <PlistImageFile Name="boom_darts1.png" Key="boom_darts1.png" />
+            <PlistImageFile Name="boom_darts10.png" Key="boom_darts10.png" />
+            <PlistImageFile Name="boom_darts11.png" Key="boom_darts11.png" />
+            <PlistImageFile Name="boom_darts12.png" Key="boom_darts12.png" />
+            <PlistImageFile Name="boom_darts13.png" Key="boom_darts13.png" />
+            <PlistImageFile Name="boom_darts14.png" Key="boom_darts14.png" />
+            <PlistImageFile Name="boom_darts15.png" Key="boom_darts15.png" />
+            <PlistImageFile Name="boom_darts16.png" Key="boom_darts16.png" />
+            <PlistImageFile Name="boom_darts17.png" Key="boom_darts17.png" />
+            <PlistImageFile Name="boom_darts18.png" Key="boom_darts18.png" />
+            <PlistImageFile Name="boom_darts19.png" Key="boom_darts19.png" />
+            <PlistImageFile Name="boom_darts2.png" Key="boom_darts2.png" />
+            <PlistImageFile Name="boom_darts20.png" Key="boom_darts20.png" />
+            <PlistImageFile Name="boom_darts21.png" Key="boom_darts21.png" />
+            <PlistImageFile Name="boom_darts22.png" Key="boom_darts22.png" />
+            <PlistImageFile Name="boom_darts23.png" Key="boom_darts23.png" />
+            <PlistImageFile Name="boom_darts24.png" Key="boom_darts24.png" />
+            <PlistImageFile Name="boom_darts25.png" Key="boom_darts25.png" />
+            <PlistImageFile Name="boom_darts26.png" Key="boom_darts26.png" />
+            <PlistImageFile Name="boom_darts27.png" Key="boom_darts27.png" />
+            <PlistImageFile Name="boom_darts28.png" Key="boom_darts28.png" />
+            <PlistImageFile Name="boom_darts29.png" Key="boom_darts29.png" />
+            <PlistImageFile Name="boom_darts3.png" Key="boom_darts3.png" />
+            <PlistImageFile Name="boom_darts30.png" Key="boom_darts30.png" />
+            <PlistImageFile Name="boom_darts31.png" Key="boom_darts31.png" />
+            <PlistImageFile Name="boom_darts32.png" Key="boom_darts32.png" />
+            <PlistImageFile Name="boom_darts4.png" Key="boom_darts4.png" />
+            <PlistImageFile Name="boom_darts5.png" Key="boom_darts5.png" />
+            <PlistImageFile Name="boom_darts6.png" Key="boom_darts6.png" />
+            <PlistImageFile Name="boom_darts7.png" Key="boom_darts7.png" />
+            <PlistImageFile Name="boom_darts8.png" Key="boom_darts8.png" />
+            <PlistImageFile Name="boom_darts9.png" Key="boom_darts9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="bullet.png" PListFile="bullet.plist" Name=".bullet_PList.Dir">
+            <PlistImageFile Name="bomb_0.png" Key="bomb_0.png" />
+            <PlistImageFile Name="bomb_1.png" Key="bomb_1.png" />
+            <PlistImageFile Name="bomb_10.png" Key="bomb_10.png" />
+            <PlistImageFile Name="bomb_11.png" Key="bomb_11.png" />
+            <PlistImageFile Name="bomb_12.png" Key="bomb_12.png" />
+            <PlistImageFile Name="bomb_13.png" Key="bomb_13.png" />
+            <PlistImageFile Name="bomb_14.png" Key="bomb_14.png" />
+            <PlistImageFile Name="bomb_2.png" Key="bomb_2.png" />
+            <PlistImageFile Name="bomb_3.png" Key="bomb_3.png" />
+            <PlistImageFile Name="bomb_4.png" Key="bomb_4.png" />
+            <PlistImageFile Name="bomb_5.png" Key="bomb_5.png" />
+            <PlistImageFile Name="bomb_6.png" Key="bomb_6.png" />
+            <PlistImageFile Name="bomb_7.png" Key="bomb_7.png" />
+            <PlistImageFile Name="bomb_8.png" Key="bomb_8.png" />
+            <PlistImageFile Name="bomb_9.png" Key="bomb_9.png" />
+            <PlistImageFile Name="bullet_0.png" Key="bullet_0.png" />
+            <PlistImageFile Name="bullet_1.png" Key="bullet_1.png" />
+            <PlistImageFile Name="bullet_2.png" Key="bullet_2.png" />
+            <PlistImageFile Name="bullet_3.png" Key="bullet_3.png" />
+            <PlistImageFile Name="bullet_4.png" Key="bullet_4.png" />
+            <PlistImageFile Name="bullet_5.png" Key="bullet_5.png" />
+            <PlistImageFile Name="bullet_6.png" Key="bullet_6.png" />
+            <PlistImageFile Name="bullet_7.png" Key="bullet_7.png" />
+            <PlistImageFile Name="bullet_8.png" Key="bullet_8.png" />
+            <PlistImageFile Name="bullet_9.png" Key="bullet_9.png" />
+            <PlistImageFile Name="copper_coin_0.png" Key="copper_coin_0.png" />
+            <PlistImageFile Name="copper_coin_1.png" Key="copper_coin_1.png" />
+            <PlistImageFile Name="copper_coin_2.png" Key="copper_coin_2.png" />
+            <PlistImageFile Name="copper_coin_3.png" Key="copper_coin_3.png" />
+            <PlistImageFile Name="copper_coin_4.png" Key="copper_coin_4.png" />
+            <PlistImageFile Name="copper_coin_5.png" Key="copper_coin_5.png" />
+            <PlistImageFile Name="copper_coin_6.png" Key="copper_coin_6.png" />
+            <PlistImageFile Name="copper_coin_7.png" Key="copper_coin_7.png" />
+            <PlistImageFile Name="copper_coin_8.png" Key="copper_coin_8.png" />
+            <PlistImageFile Name="copper_coin_9.png" Key="copper_coin_9.png" />
+            <PlistImageFile Name="fort_0.png" Key="fort_0.png" />
+            <PlistImageFile Name="fort_1.png" Key="fort_1.png" />
+            <PlistImageFile Name="fort_2.png" Key="fort_2.png" />
+            <PlistImageFile Name="fort_3.png" Key="fort_3.png" />
+            <PlistImageFile Name="fort_4.png" Key="fort_4.png" />
+            <PlistImageFile Name="fort_5.png" Key="fort_5.png" />
+            <PlistImageFile Name="fort_light_0.png" Key="fort_light_0.png" />
+            <PlistImageFile Name="fort_light_1.png" Key="fort_light_1.png" />
+            <PlistImageFile Name="fort_light_2.png" Key="fort_light_2.png" />
+            <PlistImageFile Name="fort_light_3.png" Key="fort_light_3.png" />
+            <PlistImageFile Name="fort_light_4.png" Key="fort_light_4.png" />
+            <PlistImageFile Name="fort_light_5.png" Key="fort_light_5.png" />
+            <PlistImageFile Name="fortlight_0.png" Key="fortlight_0.png" />
+            <PlistImageFile Name="fortlight_1.png" Key="fortlight_1.png" />
+            <PlistImageFile Name="fortlight_2.png" Key="fortlight_2.png" />
+            <PlistImageFile Name="fortlight_3.png" Key="fortlight_3.png" />
+            <PlistImageFile Name="gold_coin_0.png" Key="gold_coin_0.png" />
+            <PlistImageFile Name="gold_coin_1.png" Key="gold_coin_1.png" />
+            <PlistImageFile Name="gold_coin_2.png" Key="gold_coin_2.png" />
+            <PlistImageFile Name="gold_coin_3.png" Key="gold_coin_3.png" />
+            <PlistImageFile Name="gold_coin_4.png" Key="gold_coin_4.png" />
+            <PlistImageFile Name="gold_coin_5.png" Key="gold_coin_5.png" />
+            <PlistImageFile Name="gold_coin_6.png" Key="gold_coin_6.png" />
+            <PlistImageFile Name="gold_coin_7.png" Key="gold_coin_7.png" />
+            <PlistImageFile Name="gold_coin_8.png" Key="gold_coin_8.png" />
+            <PlistImageFile Name="gold_coin_9.png" Key="gold_coin_9.png" />
+            <PlistImageFile Name="light.png" Key="light.png" />
+            <PlistImageFile Name="light_0.png" Key="light_0.png" />
+            <PlistImageFile Name="light_1.png" Key="light_1.png" />
+            <PlistImageFile Name="light_10.png" Key="light_10.png" />
+            <PlistImageFile Name="light_11.png" Key="light_11.png" />
+            <PlistImageFile Name="light_12.png" Key="light_12.png" />
+            <PlistImageFile Name="light_13.png" Key="light_13.png" />
+            <PlistImageFile Name="light_14.png" Key="light_14.png" />
+            <PlistImageFile Name="light_15.png" Key="light_15.png" />
+            <PlistImageFile Name="light_2.png" Key="light_2.png" />
+            <PlistImageFile Name="light_3.png" Key="light_3.png" />
+            <PlistImageFile Name="light_4.png" Key="light_4.png" />
+            <PlistImageFile Name="light_5.png" Key="light_5.png" />
+            <PlistImageFile Name="light_6.png" Key="light_6.png" />
+            <PlistImageFile Name="light_7.png" Key="light_7.png" />
+            <PlistImageFile Name="light_8.png" Key="light_8.png" />
+            <PlistImageFile Name="light_9.png" Key="light_9.png" />
+            <PlistImageFile Name="silver_coin_0.png" Key="silver_coin_0.png" />
+            <PlistImageFile Name="silver_coin_1.png" Key="silver_coin_1.png" />
+            <PlistImageFile Name="silver_coin_2.png" Key="silver_coin_2.png" />
+            <PlistImageFile Name="silver_coin_3.png" Key="silver_coin_3.png" />
+            <PlistImageFile Name="silver_coin_4.png" Key="silver_coin_4.png" />
+            <PlistImageFile Name="silver_coin_5.png" Key="silver_coin_5.png" />
+            <PlistImageFile Name="silver_coin_6.png" Key="silver_coin_6.png" />
+            <PlistImageFile Name="silver_coin_7.png" Key="silver_coin_7.png" />
+            <PlistImageFile Name="silver_coin_8.png" Key="silver_coin_8.png" />
+            <PlistImageFile Name="silver_coin_9.png" Key="silver_coin_9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="bullet_bodies.png" PListFile="bullet_bodies.plist" Name=".bullet_bodies_PList.Dir" />
+          <PlistImageFolder Image="bullet_guns_coins.png" PListFile="bullet_guns_coins.plist" Name=".bullet_guns_coins_PList.Dir">
+            <PlistImageFile Name="Bullet1_Normal_1_b.png" Key="Bullet1_Normal_1_b.png" />
+            <PlistImageFile Name="Bullet1_Normal_2_b.png" Key="Bullet1_Normal_2_b.png" />
+            <PlistImageFile Name="Bullet1_Normal_3_b.png" Key="Bullet1_Normal_3_b.png" />
+            <PlistImageFile Name="Bullet1_Normal_4_b.png" Key="Bullet1_Normal_4_b.png" />
+            <PlistImageFile Name="Bullet1_Normal_5_b.png" Key="Bullet1_Normal_5_b.png" />
+            <PlistImageFile Name="Bullet1_Normal_6_b.png" Key="Bullet1_Normal_6_b.png" />
+            <PlistImageFile Name="Bullet1_Specialt_a.png" Key="Bullet1_Specialt_a.png" />
+            <PlistImageFile Name="Bullet1_Specialt_b.png" Key="Bullet1_Specialt_b.png" />
+            <PlistImageFile Name="Bullet2_Normal_1_b.png" Key="Bullet2_Normal_1_b.png" />
+            <PlistImageFile Name="Bullet2_Normal_2_b.png" Key="Bullet2_Normal_2_b.png" />
+            <PlistImageFile Name="Bullet2_Normal_3_b.png" Key="Bullet2_Normal_3_b.png" />
+            <PlistImageFile Name="Bullet2_Normal_4_b.png" Key="Bullet2_Normal_4_b.png" />
+            <PlistImageFile Name="Bullet2_Normal_5_b.png" Key="Bullet2_Normal_5_b.png" />
+            <PlistImageFile Name="Bullet2_Normal_6_b.png" Key="Bullet2_Normal_6_b.png" />
+            <PlistImageFile Name="Bullet2_Specialt_a.png" Key="Bullet2_Specialt_a.png" />
+            <PlistImageFile Name="Bullet2_Specialt_b.png" Key="Bullet2_Specialt_b.png" />
+            <PlistImageFile Name="Bullet3_Normal_1_b.png" Key="Bullet3_Normal_1_b.png" />
+            <PlistImageFile Name="Bullet3_Normal_2_b.png" Key="Bullet3_Normal_2_b.png" />
+            <PlistImageFile Name="Bullet3_Normal_3_b.png" Key="Bullet3_Normal_3_b.png" />
+            <PlistImageFile Name="Bullet3_Normal_4_b.png" Key="Bullet3_Normal_4_b.png" />
+            <PlistImageFile Name="Bullet3_Normal_5_b.png" Key="Bullet3_Normal_5_b.png" />
+            <PlistImageFile Name="Bullet3_Normal_6_b.png" Key="Bullet3_Normal_6_b.png" />
+            <PlistImageFile Name="Bullet3_Specialt_a.png" Key="Bullet3_Specialt_a.png" />
+            <PlistImageFile Name="Bullet3_Specialt_b.png" Key="Bullet3_Specialt_b.png" />
+            <PlistImageFile Name="gold_coin_0.png" Key="gold_coin_0.png" />
+            <PlistImageFile Name="gold_coin_1.png" Key="gold_coin_1.png" />
+            <PlistImageFile Name="gold_coin_10.png" Key="gold_coin_10.png" />
+            <PlistImageFile Name="gold_coin_11.png" Key="gold_coin_11.png" />
+            <PlistImageFile Name="gold_coin_2.png" Key="gold_coin_2.png" />
+            <PlistImageFile Name="gold_coin_3.png" Key="gold_coin_3.png" />
+            <PlistImageFile Name="gold_coin_4.png" Key="gold_coin_4.png" />
+            <PlistImageFile Name="gold_coin_5.png" Key="gold_coin_5.png" />
+            <PlistImageFile Name="gold_coin_6.png" Key="gold_coin_6.png" />
+            <PlistImageFile Name="gold_coin_7.png" Key="gold_coin_7.png" />
+            <PlistImageFile Name="gold_coin_8.png" Key="gold_coin_8.png" />
+            <PlistImageFile Name="gold_coin_9.png" Key="gold_coin_9.png" />
+            <PlistImageFile Name="gun_1_1.png" Key="gun_1_1.png" />
+            <PlistImageFile Name="gun_1_2.png" Key="gun_1_2.png" />
+            <PlistImageFile Name="gun_2_1.png" Key="gun_2_1.png" />
+            <PlistImageFile Name="gun_2_2.png" Key="gun_2_2.png" />
+            <PlistImageFile Name="gun_3_1.png" Key="gun_3_1.png" />
+            <PlistImageFile Name="gun_3_2.png" Key="gun_3_2.png" />
+            <PlistImageFile Name="silver_coin_0.png" Key="silver_coin_0.png" />
+            <PlistImageFile Name="silver_coin_1.png" Key="silver_coin_1.png" />
+            <PlistImageFile Name="silver_coin_10.png" Key="silver_coin_10.png" />
+            <PlistImageFile Name="silver_coin_11.png" Key="silver_coin_11.png" />
+            <PlistImageFile Name="silver_coin_2.png" Key="silver_coin_2.png" />
+            <PlistImageFile Name="silver_coin_3.png" Key="silver_coin_3.png" />
+            <PlistImageFile Name="silver_coin_4.png" Key="silver_coin_4.png" />
+            <PlistImageFile Name="silver_coin_5.png" Key="silver_coin_5.png" />
+            <PlistImageFile Name="silver_coin_6.png" Key="silver_coin_6.png" />
+            <PlistImageFile Name="silver_coin_7.png" Key="silver_coin_7.png" />
+            <PlistImageFile Name="silver_coin_8.png" Key="silver_coin_8.png" />
+            <PlistImageFile Name="silver_coin_9.png" Key="silver_coin_9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="fish_bodies.png" PListFile="fish_bodies.plist" Name=".fish_bodies_PList.Dir" />
+          <PlistImageFolder Image="fish_bodies11.png" PListFile="fish_bodies11.plist" Name=".fish_bodies11_PList.Dir" />
+          <PlistImageFolder Image="fish_dead.png" PListFile="fish_dead.plist" Name=".fish_dead_PList.Dir">
+            <PlistImageFile Name="fishDead_001_1.png" Key="fishDead_001_1.png" />
+            <PlistImageFile Name="fishDead_001_2.png" Key="fishDead_001_2.png" />
+            <PlistImageFile Name="fishDead_002_1.png" Key="fishDead_002_1.png" />
+            <PlistImageFile Name="fishDead_002_2.png" Key="fishDead_002_2.png" />
+            <PlistImageFile Name="fishDead_003_1.png" Key="fishDead_003_1.png" />
+            <PlistImageFile Name="fishDead_003_2.png" Key="fishDead_003_2.png" />
+            <PlistImageFile Name="fishDead_004_1.png" Key="fishDead_004_1.png" />
+            <PlistImageFile Name="fishDead_004_2.png" Key="fishDead_004_2.png" />
+            <PlistImageFile Name="fishDead_004_3.png" Key="fishDead_004_3.png" />
+            <PlistImageFile Name="fishDead_005_1.png" Key="fishDead_005_1.png" />
+            <PlistImageFile Name="fishDead_005_2.png" Key="fishDead_005_2.png" />
+            <PlistImageFile Name="fishDead_005_3.png" Key="fishDead_005_3.png" />
+            <PlistImageFile Name="fishDead_006_1.png" Key="fishDead_006_1.png" />
+            <PlistImageFile Name="fishDead_006_2.png" Key="fishDead_006_2.png" />
+            <PlistImageFile Name="fishDead_006_3.png" Key="fishDead_006_3.png" />
+            <PlistImageFile Name="fishDead_007_1.png" Key="fishDead_007_1.png" />
+            <PlistImageFile Name="fishDead_007_2.png" Key="fishDead_007_2.png" />
+            <PlistImageFile Name="fishDead_007_3.png" Key="fishDead_007_3.png" />
+            <PlistImageFile Name="fishDead_007_4.png" Key="fishDead_007_4.png" />
+            <PlistImageFile Name="fishDead_007_5.png" Key="fishDead_007_5.png" />
+            <PlistImageFile Name="fishDead_007_6.png" Key="fishDead_007_6.png" />
+            <PlistImageFile Name="fishDead_008_1.png" Key="fishDead_008_1.png" />
+            <PlistImageFile Name="fishDead_008_2.png" Key="fishDead_008_2.png" />
+            <PlistImageFile Name="fishDead_008_3.png" Key="fishDead_008_3.png" />
+            <PlistImageFile Name="fishDead_009_1.png" Key="fishDead_009_1.png" />
+            <PlistImageFile Name="fishDead_009_2.png" Key="fishDead_009_2.png" />
+            <PlistImageFile Name="fishDead_010_1.png" Key="fishDead_010_1.png" />
+            <PlistImageFile Name="fishDead_010_2.png" Key="fishDead_010_2.png" />
+            <PlistImageFile Name="fishDead_010_3.png" Key="fishDead_010_3.png" />
+            <PlistImageFile Name="fishDead_010_4.png" Key="fishDead_010_4.png" />
+            <PlistImageFile Name="fishDead_010_5.png" Key="fishDead_010_5.png" />
+            <PlistImageFile Name="fishDead_010_6.png" Key="fishDead_010_6.png" />
+            <PlistImageFile Name="fishDead_011_1.png" Key="fishDead_011_1.png" />
+            <PlistImageFile Name="fishDead_011_2.png" Key="fishDead_011_2.png" />
+            <PlistImageFile Name="fishDead_011_3.png" Key="fishDead_011_3.png" />
+            <PlistImageFile Name="fishDead_011_4.png" Key="fishDead_011_4.png" />
+            <PlistImageFile Name="fishDead_012_1.png" Key="fishDead_012_1.png" />
+            <PlistImageFile Name="fishDead_012_2.png" Key="fishDead_012_2.png" />
+            <PlistImageFile Name="fishDead_012_3.png" Key="fishDead_012_3.png" />
+            <PlistImageFile Name="fishDead_013_1.png" Key="fishDead_013_1.png" />
+            <PlistImageFile Name="fishDead_013_2.png" Key="fishDead_013_2.png" />
+            <PlistImageFile Name="fishDead_013_3.png" Key="fishDead_013_3.png" />
+            <PlistImageFile Name="fishDead_014_1.png" Key="fishDead_014_1.png" />
+            <PlistImageFile Name="fishDead_014_2.png" Key="fishDead_014_2.png" />
+            <PlistImageFile Name="fishDead_014_3.png" Key="fishDead_014_3.png" />
+            <PlistImageFile Name="fishDead_015_1.png" Key="fishDead_015_1.png" />
+            <PlistImageFile Name="fishDead_015_2.png" Key="fishDead_015_2.png" />
+            <PlistImageFile Name="fishDead_015_3.png" Key="fishDead_015_3.png" />
+            <PlistImageFile Name="fishDead_016_1.png" Key="fishDead_016_1.png" />
+            <PlistImageFile Name="fishDead_016_2.png" Key="fishDead_016_2.png" />
+            <PlistImageFile Name="fishDead_016_3.png" Key="fishDead_016_3.png" />
+            <PlistImageFile Name="fishDead_017_1.png" Key="fishDead_017_1.png" />
+            <PlistImageFile Name="fishDead_017_2.png" Key="fishDead_017_2.png" />
+            <PlistImageFile Name="fishDead_017_3.png" Key="fishDead_017_3.png" />
+            <PlistImageFile Name="fishDead_018_1.png" Key="fishDead_018_1.png" />
+            <PlistImageFile Name="fishDead_018_10.png" Key="fishDead_018_10.png" />
+            <PlistImageFile Name="fishDead_018_11.png" Key="fishDead_018_11.png" />
+            <PlistImageFile Name="fishDead_018_12.png" Key="fishDead_018_12.png" />
+            <PlistImageFile Name="fishDead_018_13.png" Key="fishDead_018_13.png" />
+            <PlistImageFile Name="fishDead_018_14.png" Key="fishDead_018_14.png" />
+            <PlistImageFile Name="fishDead_018_15.png" Key="fishDead_018_15.png" />
+            <PlistImageFile Name="fishDead_018_16.png" Key="fishDead_018_16.png" />
+            <PlistImageFile Name="fishDead_018_17.png" Key="fishDead_018_17.png" />
+            <PlistImageFile Name="fishDead_018_18.png" Key="fishDead_018_18.png" />
+            <PlistImageFile Name="fishDead_018_19.png" Key="fishDead_018_19.png" />
+            <PlistImageFile Name="fishDead_018_2.png" Key="fishDead_018_2.png" />
+            <PlistImageFile Name="fishDead_018_20.png" Key="fishDead_018_20.png" />
+            <PlistImageFile Name="fishDead_018_3.png" Key="fishDead_018_3.png" />
+            <PlistImageFile Name="fishDead_018_4.png" Key="fishDead_018_4.png" />
+            <PlistImageFile Name="fishDead_018_5.png" Key="fishDead_018_5.png" />
+            <PlistImageFile Name="fishDead_018_6.png" Key="fishDead_018_6.png" />
+            <PlistImageFile Name="fishDead_018_7.png" Key="fishDead_018_7.png" />
+            <PlistImageFile Name="fishDead_018_8.png" Key="fishDead_018_8.png" />
+            <PlistImageFile Name="fishDead_018_9.png" Key="fishDead_018_9.png" />
+            <PlistImageFile Name="fishDead_019_1.png" Key="fishDead_019_1.png" />
+            <PlistImageFile Name="fishDead_019_2.png" Key="fishDead_019_2.png" />
+            <PlistImageFile Name="fishDead_019_3.png" Key="fishDead_019_3.png" />
+            <PlistImageFile Name="fishDead_020_1.png" Key="fishDead_020_1.png" />
+            <PlistImageFile Name="fishDead_020_2.png" Key="fishDead_020_2.png" />
+            <PlistImageFile Name="fishDead_020_3.png" Key="fishDead_020_3.png" />
+            <PlistImageFile Name="fishDead_020_4.png" Key="fishDead_020_4.png" />
+            <PlistImageFile Name="fishDead_020_5.png" Key="fishDead_020_5.png" />
+            <PlistImageFile Name="fishDead_020_6.png" Key="fishDead_020_6.png" />
+            <PlistImageFile Name="fishDead_020_7.png" Key="fishDead_020_7.png" />
+            <PlistImageFile Name="fishDead_020_8.png" Key="fishDead_020_8.png" />
+            <PlistImageFile Name="fishDead_021_1.png" Key="fishDead_021_1.png" />
+            <PlistImageFile Name="fishDead_021_2.png" Key="fishDead_021_2.png" />
+            <PlistImageFile Name="fishDead_021_3.png" Key="fishDead_021_3.png" />
+            <PlistImageFile Name="fishDead_021_4.png" Key="fishDead_021_4.png" />
+            <PlistImageFile Name="fishDead_021_5.png" Key="fishDead_021_5.png" />
+            <PlistImageFile Name="fishDead_021_6.png" Key="fishDead_021_6.png" />
+            <PlistImageFile Name="fishDead_021_7.png" Key="fishDead_021_7.png" />
+            <PlistImageFile Name="fishDead_021_8.png" Key="fishDead_021_8.png" />
+            <PlistImageFile Name="fishDead_021_9.png" Key="fishDead_021_9.png" />
+            <PlistImageFile Name="fishDead_025_1.png" Key="fishDead_025_1.png" />
+            <PlistImageFile Name="fishDead_025_10.png" Key="fishDead_025_10.png" />
+            <PlistImageFile Name="fishDead_025_11.png" Key="fishDead_025_11.png" />
+            <PlistImageFile Name="fishDead_025_12.png" Key="fishDead_025_12.png" />
+            <PlistImageFile Name="fishDead_025_2.png" Key="fishDead_025_2.png" />
+            <PlistImageFile Name="fishDead_025_3.png" Key="fishDead_025_3.png" />
+            <PlistImageFile Name="fishDead_025_4.png" Key="fishDead_025_4.png" />
+            <PlistImageFile Name="fishDead_025_5.png" Key="fishDead_025_5.png" />
+            <PlistImageFile Name="fishDead_025_6.png" Key="fishDead_025_6.png" />
+            <PlistImageFile Name="fishDead_025_7.png" Key="fishDead_025_7.png" />
+            <PlistImageFile Name="fishDead_025_8.png" Key="fishDead_025_8.png" />
+            <PlistImageFile Name="fishDead_025_9.png" Key="fishDead_025_9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="fish_ignot.png" PListFile="fish_ignot.plist" Name=".fish_ignot_PList.Dir">
+            <PlistImageFile Name="fishDead_ignot_1.png" Key="fishDead_ignot_1.png" />
+            <PlistImageFile Name="fishDead_ignot_2.png" Key="fishDead_ignot_2.png" />
+            <PlistImageFile Name="fishDead_ignot_3.png" Key="fishDead_ignot_3.png" />
+            <PlistImageFile Name="fishDead_ignot_4.png" Key="fishDead_ignot_4.png" />
+            <PlistImageFile Name="fishDead_ignot_5.png" Key="fishDead_ignot_5.png" />
+            <PlistImageFile Name="fishDead_ignot_6.png" Key="fishDead_ignot_6.png" />
+            <PlistImageFile Name="fishDead_ignot_7.png" Key="fishDead_ignot_7.png" />
+            <PlistImageFile Name="fishDead_ignot_8.png" Key="fishDead_ignot_8.png" />
+            <PlistImageFile Name="fishMove_ignot_1.png" Key="fishMove_ignot_1.png" />
+            <PlistImageFile Name="fishMove_ignot_2.png" Key="fishMove_ignot_2.png" />
+            <PlistImageFile Name="ignot_coin_1.png" Key="ignot_coin_1.png" />
+            <PlistImageFile Name="ignot_coin_10.png" Key="ignot_coin_10.png" />
+            <PlistImageFile Name="ignot_coin_11.png" Key="ignot_coin_11.png" />
+            <PlistImageFile Name="ignot_coin_12.png" Key="ignot_coin_12.png" />
+            <PlistImageFile Name="ignot_coin_13.png" Key="ignot_coin_13.png" />
+            <PlistImageFile Name="ignot_coin_14.png" Key="ignot_coin_14.png" />
+            <PlistImageFile Name="ignot_coin_15.png" Key="ignot_coin_15.png" />
+            <PlistImageFile Name="ignot_coin_2.png" Key="ignot_coin_2.png" />
+            <PlistImageFile Name="ignot_coin_3.png" Key="ignot_coin_3.png" />
+            <PlistImageFile Name="ignot_coin_4.png" Key="ignot_coin_4.png" />
+            <PlistImageFile Name="ignot_coin_5.png" Key="ignot_coin_5.png" />
+            <PlistImageFile Name="ignot_coin_6.png" Key="ignot_coin_6.png" />
+            <PlistImageFile Name="ignot_coin_7.png" Key="ignot_coin_7.png" />
+            <PlistImageFile Name="ignot_coin_8.png" Key="ignot_coin_8.png" />
+            <PlistImageFile Name="ignot_coin_9.png" Key="ignot_coin_9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="fish_move1.png" PListFile="fish_move1.plist" Name=".fish_move1_PList.Dir">
+            <PlistImageFile Name="fish_bomb_1.png" Key="fish_bomb_1.png" />
+            <PlistImageFile Name="fish_bomb_2.png" Key="fish_bomb_2.png" />
+            <PlistImageFile Name="fish_king.png" Key="fish_king.png" />
+            <PlistImageFile Name="fishMove_001_1.png" Key="fishMove_001_1.png" />
+            <PlistImageFile Name="fishMove_001_2.png" Key="fishMove_001_2.png" />
+            <PlistImageFile Name="fishMove_001_3.png" Key="fishMove_001_3.png" />
+            <PlistImageFile Name="fishMove_001_4.png" Key="fishMove_001_4.png" />
+            <PlistImageFile Name="fishMove_001_5.png" Key="fishMove_001_5.png" />
+            <PlistImageFile Name="fishMove_001_6.png" Key="fishMove_001_6.png" />
+            <PlistImageFile Name="fishMove_002_1.png" Key="fishMove_002_1.png" />
+            <PlistImageFile Name="fishMove_002_2.png" Key="fishMove_002_2.png" />
+            <PlistImageFile Name="fishMove_002_3.png" Key="fishMove_002_3.png" />
+            <PlistImageFile Name="fishMove_002_4.png" Key="fishMove_002_4.png" />
+            <PlistImageFile Name="fishMove_002_5.png" Key="fishMove_002_5.png" />
+            <PlistImageFile Name="fishMove_002_6.png" Key="fishMove_002_6.png" />
+            <PlistImageFile Name="fishMove_002_7.png" Key="fishMove_002_7.png" />
+            <PlistImageFile Name="fishMove_002_8.png" Key="fishMove_002_8.png" />
+            <PlistImageFile Name="fishMove_003_1.png" Key="fishMove_003_1.png" />
+            <PlistImageFile Name="fishMove_003_10.png" Key="fishMove_003_10.png" />
+            <PlistImageFile Name="fishMove_003_11.png" Key="fishMove_003_11.png" />
+            <PlistImageFile Name="fishMove_003_12.png" Key="fishMove_003_12.png" />
+            <PlistImageFile Name="fishMove_003_2.png" Key="fishMove_003_2.png" />
+            <PlistImageFile Name="fishMove_003_3.png" Key="fishMove_003_3.png" />
+            <PlistImageFile Name="fishMove_003_4.png" Key="fishMove_003_4.png" />
+            <PlistImageFile Name="fishMove_003_5.png" Key="fishMove_003_5.png" />
+            <PlistImageFile Name="fishMove_003_6.png" Key="fishMove_003_6.png" />
+            <PlistImageFile Name="fishMove_003_7.png" Key="fishMove_003_7.png" />
+            <PlistImageFile Name="fishMove_003_8.png" Key="fishMove_003_8.png" />
+            <PlistImageFile Name="fishMove_003_9.png" Key="fishMove_003_9.png" />
+            <PlistImageFile Name="fishMove_004_1.png" Key="fishMove_004_1.png" />
+            <PlistImageFile Name="fishMove_004_10.png" Key="fishMove_004_10.png" />
+            <PlistImageFile Name="fishMove_004_11.png" Key="fishMove_004_11.png" />
+            <PlistImageFile Name="fishMove_004_12.png" Key="fishMove_004_12.png" />
+            <PlistImageFile Name="fishMove_004_2.png" Key="fishMove_004_2.png" />
+            <PlistImageFile Name="fishMove_004_3.png" Key="fishMove_004_3.png" />
+            <PlistImageFile Name="fishMove_004_4.png" Key="fishMove_004_4.png" />
+            <PlistImageFile Name="fishMove_004_5.png" Key="fishMove_004_5.png" />
+            <PlistImageFile Name="fishMove_004_6.png" Key="fishMove_004_6.png" />
+            <PlistImageFile Name="fishMove_004_7.png" Key="fishMove_004_7.png" />
+            <PlistImageFile Name="fishMove_004_8.png" Key="fishMove_004_8.png" />
+            <PlistImageFile Name="fishMove_004_9.png" Key="fishMove_004_9.png" />
+            <PlistImageFile Name="fishMove_005_1.png" Key="fishMove_005_1.png" />
+            <PlistImageFile Name="fishMove_005_10.png" Key="fishMove_005_10.png" />
+            <PlistImageFile Name="fishMove_005_11.png" Key="fishMove_005_11.png" />
+            <PlistImageFile Name="fishMove_005_12.png" Key="fishMove_005_12.png" />
+            <PlistImageFile Name="fishMove_005_2.png" Key="fishMove_005_2.png" />
+            <PlistImageFile Name="fishMove_005_3.png" Key="fishMove_005_3.png" />
+            <PlistImageFile Name="fishMove_005_4.png" Key="fishMove_005_4.png" />
+            <PlistImageFile Name="fishMove_005_5.png" Key="fishMove_005_5.png" />
+            <PlistImageFile Name="fishMove_005_6.png" Key="fishMove_005_6.png" />
+            <PlistImageFile Name="fishMove_005_7.png" Key="fishMove_005_7.png" />
+            <PlistImageFile Name="fishMove_005_8.png" Key="fishMove_005_8.png" />
+            <PlistImageFile Name="fishMove_005_9.png" Key="fishMove_005_9.png" />
+            <PlistImageFile Name="fishMove_006_1.png" Key="fishMove_006_1.png" />
+            <PlistImageFile Name="fishMove_006_10.png" Key="fishMove_006_10.png" />
+            <PlistImageFile Name="fishMove_006_11.png" Key="fishMove_006_11.png" />
+            <PlistImageFile Name="fishMove_006_12.png" Key="fishMove_006_12.png" />
+            <PlistImageFile Name="fishMove_006_13.png" Key="fishMove_006_13.png" />
+            <PlistImageFile Name="fishMove_006_2.png" Key="fishMove_006_2.png" />
+            <PlistImageFile Name="fishMove_006_3.png" Key="fishMove_006_3.png" />
+            <PlistImageFile Name="fishMove_006_4.png" Key="fishMove_006_4.png" />
+            <PlistImageFile Name="fishMove_006_5.png" Key="fishMove_006_5.png" />
+            <PlistImageFile Name="fishMove_006_6.png" Key="fishMove_006_6.png" />
+            <PlistImageFile Name="fishMove_006_7.png" Key="fishMove_006_7.png" />
+            <PlistImageFile Name="fishMove_006_8.png" Key="fishMove_006_8.png" />
+            <PlistImageFile Name="fishMove_006_9.png" Key="fishMove_006_9.png" />
+            <PlistImageFile Name="fishMove_007_1.png" Key="fishMove_007_1.png" />
+            <PlistImageFile Name="fishMove_007_10.png" Key="fishMove_007_10.png" />
+            <PlistImageFile Name="fishMove_007_11.png" Key="fishMove_007_11.png" />
+            <PlistImageFile Name="fishMove_007_12.png" Key="fishMove_007_12.png" />
+            <PlistImageFile Name="fishMove_007_2.png" Key="fishMove_007_2.png" />
+            <PlistImageFile Name="fishMove_007_3.png" Key="fishMove_007_3.png" />
+            <PlistImageFile Name="fishMove_007_4.png" Key="fishMove_007_4.png" />
+            <PlistImageFile Name="fishMove_007_5.png" Key="fishMove_007_5.png" />
+            <PlistImageFile Name="fishMove_007_6.png" Key="fishMove_007_6.png" />
+            <PlistImageFile Name="fishMove_007_7.png" Key="fishMove_007_7.png" />
+            <PlistImageFile Name="fishMove_007_8.png" Key="fishMove_007_8.png" />
+            <PlistImageFile Name="fishMove_007_9.png" Key="fishMove_007_9.png" />
+            <PlistImageFile Name="fishMove_008_1.png" Key="fishMove_008_1.png" />
+            <PlistImageFile Name="fishMove_008_10.png" Key="fishMove_008_10.png" />
+            <PlistImageFile Name="fishMove_008_2.png" Key="fishMove_008_2.png" />
+            <PlistImageFile Name="fishMove_008_3.png" Key="fishMove_008_3.png" />
+            <PlistImageFile Name="fishMove_008_4.png" Key="fishMove_008_4.png" />
+            <PlistImageFile Name="fishMove_008_5.png" Key="fishMove_008_5.png" />
+            <PlistImageFile Name="fishMove_008_6.png" Key="fishMove_008_6.png" />
+            <PlistImageFile Name="fishMove_008_7.png" Key="fishMove_008_7.png" />
+            <PlistImageFile Name="fishMove_008_8.png" Key="fishMove_008_8.png" />
+            <PlistImageFile Name="fishMove_008_9.png" Key="fishMove_008_9.png" />
+            <PlistImageFile Name="fishMove_009_1.png" Key="fishMove_009_1.png" />
+            <PlistImageFile Name="fishMove_009_10.png" Key="fishMove_009_10.png" />
+            <PlistImageFile Name="fishMove_009_11.png" Key="fishMove_009_11.png" />
+            <PlistImageFile Name="fishMove_009_12.png" Key="fishMove_009_12.png" />
+            <PlistImageFile Name="fishMove_009_2.png" Key="fishMove_009_2.png" />
+            <PlistImageFile Name="fishMove_009_3.png" Key="fishMove_009_3.png" />
+            <PlistImageFile Name="fishMove_009_4.png" Key="fishMove_009_4.png" />
+            <PlistImageFile Name="fishMove_009_5.png" Key="fishMove_009_5.png" />
+            <PlistImageFile Name="fishMove_009_6.png" Key="fishMove_009_6.png" />
+            <PlistImageFile Name="fishMove_009_7.png" Key="fishMove_009_7.png" />
+            <PlistImageFile Name="fishMove_009_8.png" Key="fishMove_009_8.png" />
+            <PlistImageFile Name="fishMove_009_9.png" Key="fishMove_009_9.png" />
+            <PlistImageFile Name="fishMove_010_1.png" Key="fishMove_010_1.png" />
+            <PlistImageFile Name="fishMove_010_2.png" Key="fishMove_010_2.png" />
+            <PlistImageFile Name="fishMove_010_3.png" Key="fishMove_010_3.png" />
+            <PlistImageFile Name="fishMove_010_4.png" Key="fishMove_010_4.png" />
+            <PlistImageFile Name="fishMove_010_5.png" Key="fishMove_010_5.png" />
+            <PlistImageFile Name="fishMove_010_6.png" Key="fishMove_010_6.png" />
+            <PlistImageFile Name="fishMove_010_7.png" Key="fishMove_010_7.png" />
+            <PlistImageFile Name="fishMove_010_8.png" Key="fishMove_010_8.png" />
+            <PlistImageFile Name="fishMove_011_1.png" Key="fishMove_011_1.png" />
+            <PlistImageFile Name="fishMove_011_10.png" Key="fishMove_011_10.png" />
+            <PlistImageFile Name="fishMove_011_11.png" Key="fishMove_011_11.png" />
+            <PlistImageFile Name="fishMove_011_12.png" Key="fishMove_011_12.png" />
+            <PlistImageFile Name="fishMove_011_2.png" Key="fishMove_011_2.png" />
+            <PlistImageFile Name="fishMove_011_3.png" Key="fishMove_011_3.png" />
+            <PlistImageFile Name="fishMove_011_4.png" Key="fishMove_011_4.png" />
+            <PlistImageFile Name="fishMove_011_5.png" Key="fishMove_011_5.png" />
+            <PlistImageFile Name="fishMove_011_6.png" Key="fishMove_011_6.png" />
+            <PlistImageFile Name="fishMove_011_7.png" Key="fishMove_011_7.png" />
+            <PlistImageFile Name="fishMove_011_8.png" Key="fishMove_011_8.png" />
+            <PlistImageFile Name="fishMove_011_9.png" Key="fishMove_011_9.png" />
+            <PlistImageFile Name="fishMove_012_1.png" Key="fishMove_012_1.png" />
+            <PlistImageFile Name="fishMove_012_2.png" Key="fishMove_012_2.png" />
+            <PlistImageFile Name="fishMove_012_3.png" Key="fishMove_012_3.png" />
+            <PlistImageFile Name="fishMove_012_4.png" Key="fishMove_012_4.png" />
+            <PlistImageFile Name="fishMove_012_5.png" Key="fishMove_012_5.png" />
+            <PlistImageFile Name="fishMove_012_6.png" Key="fishMove_012_6.png" />
+            <PlistImageFile Name="fishMove_013_1.png" Key="fishMove_013_1.png" />
+            <PlistImageFile Name="fishMove_013_10.png" Key="fishMove_013_10.png" />
+            <PlistImageFile Name="fishMove_013_11.png" Key="fishMove_013_11.png" />
+            <PlistImageFile Name="fishMove_013_12.png" Key="fishMove_013_12.png" />
+            <PlistImageFile Name="fishMove_013_2.png" Key="fishMove_013_2.png" />
+            <PlistImageFile Name="fishMove_013_3.png" Key="fishMove_013_3.png" />
+            <PlistImageFile Name="fishMove_013_4.png" Key="fishMove_013_4.png" />
+            <PlistImageFile Name="fishMove_013_5.png" Key="fishMove_013_5.png" />
+            <PlistImageFile Name="fishMove_013_6.png" Key="fishMove_013_6.png" />
+            <PlistImageFile Name="fishMove_013_7.png" Key="fishMove_013_7.png" />
+            <PlistImageFile Name="fishMove_013_8.png" Key="fishMove_013_8.png" />
+            <PlistImageFile Name="fishMove_013_9.png" Key="fishMove_013_9.png" />
+            <PlistImageFile Name="fishMove_014_1.png" Key="fishMove_014_1.png" />
+            <PlistImageFile Name="fishMove_014_10.png" Key="fishMove_014_10.png" />
+            <PlistImageFile Name="fishMove_014_2.png" Key="fishMove_014_2.png" />
+            <PlistImageFile Name="fishMove_014_3.png" Key="fishMove_014_3.png" />
+            <PlistImageFile Name="fishMove_014_4.png" Key="fishMove_014_4.png" />
+            <PlistImageFile Name="fishMove_014_5.png" Key="fishMove_014_5.png" />
+            <PlistImageFile Name="fishMove_014_6.png" Key="fishMove_014_6.png" />
+            <PlistImageFile Name="fishMove_014_7.png" Key="fishMove_014_7.png" />
+            <PlistImageFile Name="fishMove_014_8.png" Key="fishMove_014_8.png" />
+            <PlistImageFile Name="fishMove_014_9.png" Key="fishMove_014_9.png" />
+            <PlistImageFile Name="fishMove_015_1.png" Key="fishMove_015_1.png" />
+            <PlistImageFile Name="fishMove_015_10.png" Key="fishMove_015_10.png" />
+            <PlistImageFile Name="fishMove_015_11.png" Key="fishMove_015_11.png" />
+            <PlistImageFile Name="fishMove_015_12.png" Key="fishMove_015_12.png" />
+            <PlistImageFile Name="fishMove_015_2.png" Key="fishMove_015_2.png" />
+            <PlistImageFile Name="fishMove_015_3.png" Key="fishMove_015_3.png" />
+            <PlistImageFile Name="fishMove_015_4.png" Key="fishMove_015_4.png" />
+            <PlistImageFile Name="fishMove_015_5.png" Key="fishMove_015_5.png" />
+            <PlistImageFile Name="fishMove_015_6.png" Key="fishMove_015_6.png" />
+            <PlistImageFile Name="fishMove_015_7.png" Key="fishMove_015_7.png" />
+            <PlistImageFile Name="fishMove_015_8.png" Key="fishMove_015_8.png" />
+            <PlistImageFile Name="fishMove_015_9.png" Key="fishMove_015_9.png" />
+            <PlistImageFile Name="fishMove_016_1.png" Key="fishMove_016_1.png" />
+            <PlistImageFile Name="fishMove_016_10.png" Key="fishMove_016_10.png" />
+            <PlistImageFile Name="fishMove_016_11.png" Key="fishMove_016_11.png" />
+            <PlistImageFile Name="fishMove_016_12.png" Key="fishMove_016_12.png" />
+            <PlistImageFile Name="fishMove_016_2.png" Key="fishMove_016_2.png" />
+            <PlistImageFile Name="fishMove_016_3.png" Key="fishMove_016_3.png" />
+            <PlistImageFile Name="fishMove_016_4.png" Key="fishMove_016_4.png" />
+            <PlistImageFile Name="fishMove_016_5.png" Key="fishMove_016_5.png" />
+            <PlistImageFile Name="fishMove_016_6.png" Key="fishMove_016_6.png" />
+            <PlistImageFile Name="fishMove_016_7.png" Key="fishMove_016_7.png" />
+            <PlistImageFile Name="fishMove_016_8.png" Key="fishMove_016_8.png" />
+            <PlistImageFile Name="fishMove_016_9.png" Key="fishMove_016_9.png" />
+            <PlistImageFile Name="fishMove_017_1.png" Key="fishMove_017_1.png" />
+            <PlistImageFile Name="fishMove_017_10.png" Key="fishMove_017_10.png" />
+            <PlistImageFile Name="fishMove_017_11.png" Key="fishMove_017_11.png" />
+            <PlistImageFile Name="fishMove_017_12.png" Key="fishMove_017_12.png" />
+            <PlistImageFile Name="fishMove_017_2.png" Key="fishMove_017_2.png" />
+            <PlistImageFile Name="fishMove_017_3.png" Key="fishMove_017_3.png" />
+            <PlistImageFile Name="fishMove_017_4.png" Key="fishMove_017_4.png" />
+            <PlistImageFile Name="fishMove_017_5.png" Key="fishMove_017_5.png" />
+            <PlistImageFile Name="fishMove_017_6.png" Key="fishMove_017_6.png" />
+            <PlistImageFile Name="fishMove_017_7.png" Key="fishMove_017_7.png" />
+            <PlistImageFile Name="fishMove_017_8.png" Key="fishMove_017_8.png" />
+            <PlistImageFile Name="fishMove_017_9.png" Key="fishMove_017_9.png" />
+            <PlistImageFile Name="fishMove_018_1.png" Key="fishMove_018_1.png" />
+            <PlistImageFile Name="fishMove_018_10.png" Key="fishMove_018_10.png" />
+            <PlistImageFile Name="fishMove_018_11.png" Key="fishMove_018_11.png" />
+            <PlistImageFile Name="fishMove_018_12.png" Key="fishMove_018_12.png" />
+            <PlistImageFile Name="fishMove_018_13.png" Key="fishMove_018_13.png" />
+            <PlistImageFile Name="fishMove_018_14.png" Key="fishMove_018_14.png" />
+            <PlistImageFile Name="fishMove_018_15.png" Key="fishMove_018_15.png" />
+            <PlistImageFile Name="fishMove_018_16.png" Key="fishMove_018_16.png" />
+            <PlistImageFile Name="fishMove_018_17.png" Key="fishMove_018_17.png" />
+            <PlistImageFile Name="fishMove_018_18.png" Key="fishMove_018_18.png" />
+            <PlistImageFile Name="fishMove_018_19.png" Key="fishMove_018_19.png" />
+            <PlistImageFile Name="fishMove_018_2.png" Key="fishMove_018_2.png" />
+            <PlistImageFile Name="fishMove_018_20.png" Key="fishMove_018_20.png" />
+            <PlistImageFile Name="fishMove_018_3.png" Key="fishMove_018_3.png" />
+            <PlistImageFile Name="fishMove_018_4.png" Key="fishMove_018_4.png" />
+            <PlistImageFile Name="fishMove_018_5.png" Key="fishMove_018_5.png" />
+            <PlistImageFile Name="fishMove_018_6.png" Key="fishMove_018_6.png" />
+            <PlistImageFile Name="fishMove_018_7.png" Key="fishMove_018_7.png" />
+            <PlistImageFile Name="fishMove_018_8.png" Key="fishMove_018_8.png" />
+            <PlistImageFile Name="fishMove_018_9.png" Key="fishMove_018_9.png" />
+            <PlistImageFile Name="fishMove_019_1.png" Key="fishMove_019_1.png" />
+            <PlistImageFile Name="fishMove_019_2.png" Key="fishMove_019_2.png" />
+            <PlistImageFile Name="fishMove_019_3.png" Key="fishMove_019_3.png" />
+            <PlistImageFile Name="fishMove_019_4.png" Key="fishMove_019_4.png" />
+            <PlistImageFile Name="fishMove_019_5.png" Key="fishMove_019_5.png" />
+            <PlistImageFile Name="fishMove_019_6.png" Key="fishMove_019_6.png" />
+            <PlistImageFile Name="fishMove_019_7.png" Key="fishMove_019_7.png" />
+            <PlistImageFile Name="fishMove_019_8.png" Key="fishMove_019_8.png" />
+            <PlistImageFile Name="fishMove_019_9.png" Key="fishMove_019_9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="fish_move2.png" PListFile="fish_move2.plist" Name=".fish_move2_PList.Dir">
+            <PlistImageFile Name="fishMove_020_1.png" Key="fishMove_020_1.png" />
+            <PlistImageFile Name="fishMove_020_10.png" Key="fishMove_020_10.png" />
+            <PlistImageFile Name="fishMove_020_11.png" Key="fishMove_020_11.png" />
+            <PlistImageFile Name="fishMove_020_12.png" Key="fishMove_020_12.png" />
+            <PlistImageFile Name="fishMove_020_13.png" Key="fishMove_020_13.png" />
+            <PlistImageFile Name="fishMove_020_14.png" Key="fishMove_020_14.png" />
+            <PlistImageFile Name="fishMove_020_15.png" Key="fishMove_020_15.png" />
+            <PlistImageFile Name="fishMove_020_16.png" Key="fishMove_020_16.png" />
+            <PlistImageFile Name="fishMove_020_2.png" Key="fishMove_020_2.png" />
+            <PlistImageFile Name="fishMove_020_3.png" Key="fishMove_020_3.png" />
+            <PlistImageFile Name="fishMove_020_4.png" Key="fishMove_020_4.png" />
+            <PlistImageFile Name="fishMove_020_5.png" Key="fishMove_020_5.png" />
+            <PlistImageFile Name="fishMove_020_6.png" Key="fishMove_020_6.png" />
+            <PlistImageFile Name="fishMove_020_7.png" Key="fishMove_020_7.png" />
+            <PlistImageFile Name="fishMove_020_8.png" Key="fishMove_020_8.png" />
+            <PlistImageFile Name="fishMove_020_9.png" Key="fishMove_020_9.png" />
+            <PlistImageFile Name="fishMove_021_1.png" Key="fishMove_021_1.png" />
+            <PlistImageFile Name="fishMove_021_10.png" Key="fishMove_021_10.png" />
+            <PlistImageFile Name="fishMove_021_11.png" Key="fishMove_021_11.png" />
+            <PlistImageFile Name="fishMove_021_12.png" Key="fishMove_021_12.png" />
+            <PlistImageFile Name="fishMove_021_13.png" Key="fishMove_021_13.png" />
+            <PlistImageFile Name="fishMove_021_14.png" Key="fishMove_021_14.png" />
+            <PlistImageFile Name="fishMove_021_15.png" Key="fishMove_021_15.png" />
+            <PlistImageFile Name="fishMove_021_2.png" Key="fishMove_021_2.png" />
+            <PlistImageFile Name="fishMove_021_3.png" Key="fishMove_021_3.png" />
+            <PlistImageFile Name="fishMove_021_4.png" Key="fishMove_021_4.png" />
+            <PlistImageFile Name="fishMove_021_5.png" Key="fishMove_021_5.png" />
+            <PlistImageFile Name="fishMove_021_6.png" Key="fishMove_021_6.png" />
+            <PlistImageFile Name="fishMove_021_7.png" Key="fishMove_021_7.png" />
+            <PlistImageFile Name="fishMove_021_8.png" Key="fishMove_021_8.png" />
+            <PlistImageFile Name="fishMove_021_9.png" Key="fishMove_021_9.png" />
+            <PlistImageFile Name="fishMove_022_1.png" Key="fishMove_022_1.png" />
+            <PlistImageFile Name="fishMove_022_2.png" Key="fishMove_022_2.png" />
+            <PlistImageFile Name="fishMove_022_3.png" Key="fishMove_022_3.png" />
+            <PlistImageFile Name="fishMove_022_4.png" Key="fishMove_022_4.png" />
+            <PlistImageFile Name="fishMove_022_5.png" Key="fishMove_022_5.png" />
+            <PlistImageFile Name="fishMove_022_6.png" Key="fishMove_022_6.png" />
+            <PlistImageFile Name="fishMove_022_7.png" Key="fishMove_022_7.png" />
+            <PlistImageFile Name="fishMove_022_8.png" Key="fishMove_022_8.png" />
+            <PlistImageFile Name="fishMove_023_1.png" Key="fishMove_023_1.png" />
+            <PlistImageFile Name="fishMove_023_10.png" Key="fishMove_023_10.png" />
+            <PlistImageFile Name="fishMove_023_11.png" Key="fishMove_023_11.png" />
+            <PlistImageFile Name="fishMove_023_12.png" Key="fishMove_023_12.png" />
+            <PlistImageFile Name="fishMove_023_2.png" Key="fishMove_023_2.png" />
+            <PlistImageFile Name="fishMove_023_3.png" Key="fishMove_023_3.png" />
+            <PlistImageFile Name="fishMove_023_4.png" Key="fishMove_023_4.png" />
+            <PlistImageFile Name="fishMove_023_5.png" Key="fishMove_023_5.png" />
+            <PlistImageFile Name="fishMove_023_6.png" Key="fishMove_023_6.png" />
+            <PlistImageFile Name="fishMove_023_7.png" Key="fishMove_023_7.png" />
+            <PlistImageFile Name="fishMove_023_8.png" Key="fishMove_023_8.png" />
+            <PlistImageFile Name="fishMove_023_9.png" Key="fishMove_023_9.png" />
+            <PlistImageFile Name="fishMove_024_1.png" Key="fishMove_024_1.png" />
+            <PlistImageFile Name="fishMove_025_1.png" Key="fishMove_025_1.png" />
+            <PlistImageFile Name="fishMove_025_10.png" Key="fishMove_025_10.png" />
+            <PlistImageFile Name="fishMove_025_11.png" Key="fishMove_025_11.png" />
+            <PlistImageFile Name="fishMove_025_12.png" Key="fishMove_025_12.png" />
+            <PlistImageFile Name="fishMove_025_2.png" Key="fishMove_025_2.png" />
+            <PlistImageFile Name="fishMove_025_3.png" Key="fishMove_025_3.png" />
+            <PlistImageFile Name="fishMove_025_4.png" Key="fishMove_025_4.png" />
+            <PlistImageFile Name="fishMove_025_5.png" Key="fishMove_025_5.png" />
+            <PlistImageFile Name="fishMove_025_6.png" Key="fishMove_025_6.png" />
+            <PlistImageFile Name="fishMove_025_7.png" Key="fishMove_025_7.png" />
+            <PlistImageFile Name="fishMove_025_8.png" Key="fishMove_025_8.png" />
+            <PlistImageFile Name="fishMove_025_9.png" Key="fishMove_025_9.png" />
+            <PlistImageFile Name="fishMove_026_1.png" Key="fishMove_026_1.png" />
+            <PlistImageFile Name="fishMove_026_2.png" Key="fishMove_026_2.png" />
+            <PlistImageFile Name="fishMove_026_3.png" Key="fishMove_026_3.png" />
+            <PlistImageFile Name="fishMove_026_4.png" Key="fishMove_026_4.png" />
+            <PlistImageFile Name="fishMove_026_5.png" Key="fishMove_026_5.png" />
+            <PlistImageFile Name="fishMove_026_6.png" Key="fishMove_026_6.png" />
+            <PlistImageFile Name="fishMove_026_7.png" Key="fishMove_026_7.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="image.png" PListFile="image.plist" Name=".image_PList.Dir">
+            <PlistImageFile Name="Ice.png" Key="Ice.png" />
+            <PlistImageFile Name="Ice_Red.png" Key="Ice_Red.png" />
+            <PlistImageFile Name="Reward_Box_0.png" Key="Reward_Box_0.png" />
+            <PlistImageFile Name="Reward_Box_1.png" Key="Reward_Box_1.png" />
+            <PlistImageFile Name="Reward_Box_2.png" Key="Reward_Box_2.png" />
+            <PlistImageFile Name="Reward_Box_3.png" Key="Reward_Box_3.png" />
+            <PlistImageFile Name="Reward_Box_4.png" Key="Reward_Box_4.png" />
+            <PlistImageFile Name="Reward_Box_5.png" Key="Reward_Box_5.png" />
+            <PlistImageFile Name="Reward_Box_6.png" Key="Reward_Box_6.png" />
+            <PlistImageFile Name="Reward_Box_7.png" Key="Reward_Box_7.png" />
+            <PlistImageFile Name="Reward_Box_8.png" Key="Reward_Box_8.png" />
+            <PlistImageFile Name="Reward_Box_9.png" Key="Reward_Box_9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="lock_fish.png" PListFile="lock_fish.plist" Name=".lock_fish_PList.Dir">
+            <PlistImageFile Name="1_2.png" Key="1_2.png" />
+            <PlistImageFile Name="10_1.png" Key="10_1.png" />
+            <PlistImageFile Name="10_2.png" Key="10_2.png" />
+            <PlistImageFile Name="10_3.png" Key="10_3.png" />
+            <PlistImageFile Name="11_1.png" Key="11_1.png" />
+            <PlistImageFile Name="12_1.png" Key="12_1.png" />
+            <PlistImageFile Name="13_1.png" Key="13_1.png" />
+            <PlistImageFile Name="14_1.png" Key="14_1.png" />
+            <PlistImageFile Name="15_1.png" Key="15_1.png" />
+            <PlistImageFile Name="16_1.png" Key="16_1.png" />
+            <PlistImageFile Name="17_1.png" Key="17_1.png" />
+            <PlistImageFile Name="18_1.png" Key="18_1.png" />
+            <PlistImageFile Name="18_11.png" Key="18_11.png" />
+            <PlistImageFile Name="19_1.png" Key="19_1.png" />
+            <PlistImageFile Name="2_2.png" Key="2_2.png" />
+            <PlistImageFile Name="20_1.png" Key="20_1.png" />
+            <PlistImageFile Name="21_1.png" Key="21_1.png" />
+            <PlistImageFile Name="22_1.png" Key="22_1.png" />
+            <PlistImageFile Name="23_1.png" Key="23_1.png" />
+            <PlistImageFile Name="24_1.png" Key="24_1.png" />
+            <PlistImageFile Name="3_2.png" Key="3_2.png" />
+            <PlistImageFile Name="4_2.png" Key="4_2.png" />
+            <PlistImageFile Name="4_3.png" Key="4_3.png" />
+            <PlistImageFile Name="5_2.png" Key="5_2.png" />
+            <PlistImageFile Name="5_3.png" Key="5_3.png" />
+            <PlistImageFile Name="6_2.png" Key="6_2.png" />
+            <PlistImageFile Name="6_3.png" Key="6_3.png" />
+            <PlistImageFile Name="7_2.png" Key="7_2.png" />
+            <PlistImageFile Name="7_3.png" Key="7_3.png" />
+            <PlistImageFile Name="8_2.png" Key="8_2.png" />
+            <PlistImageFile Name="8_3.png" Key="8_3.png" />
+            <PlistImageFile Name="9_2.png" Key="9_2.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="watch.png" PListFile="watch.plist" Name=".watch_PList.Dir">
+            <PlistImageFile Name="watch_0.png" Key="watch_0.png" />
+            <PlistImageFile Name="watch_1.png" Key="watch_1.png" />
+            <PlistImageFile Name="watch_10.png" Key="watch_10.png" />
+            <PlistImageFile Name="watch_11.png" Key="watch_11.png" />
+            <PlistImageFile Name="watch_12.png" Key="watch_12.png" />
+            <PlistImageFile Name="watch_13.png" Key="watch_13.png" />
+            <PlistImageFile Name="watch_14.png" Key="watch_14.png" />
+            <PlistImageFile Name="watch_15.png" Key="watch_15.png" />
+            <PlistImageFile Name="watch_16.png" Key="watch_16.png" />
+            <PlistImageFile Name="watch_17.png" Key="watch_17.png" />
+            <PlistImageFile Name="watch_18.png" Key="watch_18.png" />
+            <PlistImageFile Name="watch_19.png" Key="watch_19.png" />
+            <PlistImageFile Name="watch_2.png" Key="watch_2.png" />
+            <PlistImageFile Name="watch_20.png" Key="watch_20.png" />
+            <PlistImageFile Name="watch_21.png" Key="watch_21.png" />
+            <PlistImageFile Name="watch_22.png" Key="watch_22.png" />
+            <PlistImageFile Name="watch_23.png" Key="watch_23.png" />
+            <PlistImageFile Name="watch_3.png" Key="watch_3.png" />
+            <PlistImageFile Name="watch_4.png" Key="watch_4.png" />
+            <PlistImageFile Name="watch_5.png" Key="watch_5.png" />
+            <PlistImageFile Name="watch_6.png" Key="watch_6.png" />
+            <PlistImageFile Name="watch_7.png" Key="watch_7.png" />
+            <PlistImageFile Name="watch_8.png" Key="watch_8.png" />
+            <PlistImageFile Name="watch_9.png" Key="watch_9.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="whater.png" PListFile="whater.plist" Name=".whater_PList.Dir">
+            <PlistImageFile Name="water_0.png" Key="water_0.png" />
+            <PlistImageFile Name="water_1.png" Key="water_1.png" />
+            <PlistImageFile Name="water_10.png" Key="water_10.png" />
+            <PlistImageFile Name="water_11.png" Key="water_11.png" />
+            <PlistImageFile Name="water_2.png" Key="water_2.png" />
+            <PlistImageFile Name="water_3.png" Key="water_3.png" />
+            <PlistImageFile Name="water_4.png" Key="water_4.png" />
+            <PlistImageFile Name="water_5.png" Key="water_5.png" />
+            <PlistImageFile Name="water_6.png" Key="water_6.png" />
+            <PlistImageFile Name="water_7.png" Key="water_7.png" />
+            <PlistImageFile Name="water_8.png" Key="water_8.png" />
+            <PlistImageFile Name="water_9.png" Key="water_9.png" />
+          </PlistImageFolder>
+          <File Name=".DS_Store" />
+          <Image Name="bt_bank_0.png" />
+          <Image Name="bt_bank_1.png" />
+          <Image Name="bt_blue_0.png" />
+          <Image Name="bt_blue_1.png" />
+          <Image Name="bt_blue_2.png" />
+          <Image Name="bt_check_no.png" />
+          <Image Name="bt_check_yes.png" />
+          <Image Name="bt_clearing_0.png" />
+          <Image Name="bt_clearing_1.png" />
+          <Image Name="bt_fishtype_0.png" />
+          <Image Name="bt_fishtype_1.png" />
+          <Image Name="bt_green_0.png" />
+          <Image Name="bt_green_1.png" />
+          <Image Name="bt_green_2.png" />
+          <Image Name="bt_help_0.png" />
+          <Image Name="bt_help_1.png" />
+          <Image Name="bt_menu_0.png" />
+          <Image Name="bt_menu_1.png" />
+          <Image Name="bt_mute_0.png" />
+          <Image Name="bt_mute_1.png" />
+          <Image Name="bt_mute_2.png" />
+          <Image Name="bt_operation_0.png" />
+          <Image Name="bt_operation_1.png" />
+          <Image Name="bt_purple_0.png" />
+          <Image Name="bt_purple_1.png" />
+          <Image Name="bt_purple_2.png" />
+          <Image Name="bt_quit_game_0.png" />
+          <Image Name="bt_quit_game_1.png" />
+          <Image Name="bt_red_0.png" />
+          <Image Name="bt_red_1.png" />
+          <Image Name="bt_red_2.png" />
+          <Image Name="bt_return_game_0.png" />
+          <Image Name="bt_return_game_1.png" />
+          <Image Name="bt_send_0.png" />
+          <Image Name="bt_send_1.png" />
+          <Image Name="bt_setting_0.png" />
+          <Image Name="bt_setting_1.png" />
+          <Image Name="bt_supply_0.png" />
+          <Image Name="bt_supply_1.png" />
+          <Image Name="bt_yellow_0.png" />
+          <Image Name="bt_yellow_1.png" />
+          <Image Name="bt_yellow_2.png" />
+          <Image Name="chatBox.png" />
+          <Image Name="clew_box.png" />
+          <Image Name="fish_bomb_ball.png" />
+          <Image Name="fish_bomb_light.png" />
+          <Image Name="game_bg_0.png" />
+          <Image Name="game_bg_1.png" />
+          <Image Name="game_bg_2.png" />
+          <Image Name="game_bg_3.png" />
+          <Image Name="game_buttom.png" />
+          <Image Name="gold_banner.png" />
+          <Image Name="goldCircle.png" />
+          <Image Name="golds.png" />
+          <Image Name="gunPlatformButtom.png" />
+          <Image Name="gunPlatformCenter.png" />
+          <Image Name="im_award_0.png" />
+          <Image Name="im_award_1.png" />
+          <Image Name="im_award_2.png" />
+          <Image Name="im_award_3.png" />
+          <Image Name="im_award_4.png" />
+          <Image Name="im_box_gold.png" />
+          <Image Name="im_bt_frame.png" />
+          <Image Name="im_bullet.png" />
+          <Image Name="im_bullet_red.png" />
+          <Image Name="im_clear_bg.png" />
+          <Image Name="im_color_bg.png" />
+          <Image Name="im_icon_0.png" />
+          <Image Name="im_icon_1.png" />
+          <Image Name="im_info_bg_1.png" />
+          <Image Name="im_info_bg_2.png" />
+          <Image Name="im_info_bg_3.png" />
+          <Image Name="im_info_bg_4.png" />
+          <Image Name="im_info_bg_5.png" />
+          <Image Name="im_info_bg_6.png" />
+          <Image Name="im_line_frame.png" />
+          <Image Name="im_multiple_bg.png" />
+          <Image Name="im_multiple_tip_0.png" />
+          <Image Name="im_multiple_tip_1.png" />
+          <Image Name="im_net.png" />
+          <Image Name="im_net_big.png" />
+          <Image Name="im_supply_1.png" />
+          <Image Name="im_supply_2.png" />
+          <Image Name="imputfield.png" />
+          <Image Name="knife.png" />
+          <Image Name="lockNum.png" />
+          <Image Name="mutipleNum.png" />
+          <Image Name="num_award.png" />
+          <Image Name="num_clear.png" />
+          <Image Name="num_clear_multiple.png" />
+          <Image Name="num_clear_strip.png" />
+          <Image Name="num_game_gold.png" />
+          <Image Name="num_help.png" />
+          <Image Name="num_multiple.png" />
+          <Image Name="num_score.png" />
+          <PlistParticleFile Name="particles_test1.plist" />
+          <PlistParticleFile Name="particles_test2.plist" />
+          <Image Name="scoreNum.png" />
+          <Image Name="secondTip.png" />
+          <Image Name="trumpet_0.png" />
+          <Image Name="trumpet_1.png" />
+          <Image Name="txt_netcolor.png" />
+        </Folder>
+        <Folder Name="gameClear">
+          <File Name=".DS_Store" />
+          <Image Name="bt_quit_game_0.png" />
+          <Image Name="bt_quit_game_1.png" />
+          <Image Name="bt_return_game_0.png" />
+          <Image Name="bt_return_game_1.png" />
+          <Image Name="clearBox.png" />
+          <Image Name="fishCatchNum.png" />
+          <Image Name="fishMultipleNum.png" />
+          <Image Name="multiple.png" />
+          <Image Name="num-.png" />
+          <Image Name="scoreNum.png" />
+        </Folder>
+        <Folder Name="help">
+          <File Name=".DS_Store" />
+          <Image Name="bt_close_0.png" />
+          <Image Name="bt_close_1.png" />
+          <Image Name="bt_fishReward_0.png" />
+          <Image Name="bt_fishReward_1.png.png" />
+          <Image Name="bt_operation_0.png" />
+          <Image Name="bt_operation_1.png" />
+          <Image Name="bt_supply_0.png" />
+          <Image Name="bt_supply_1.png" />
+          <Image Name="fish.png" />
+          <Image Name="fish_b.png" />
+          <Image Name="fishHelpNum.png" />
+          <Image Name="help.png" />
+          <Image Name="supply.png" />
+        </Folder>
+        <Folder Name="setting_res">
+          <Image Name="bt_check_no.png" />
+          <Image Name="bt_check_yes.png" />
+          <Image Name="bt_close_0.png" />
+          <Image Name="bt_close_1.png" />
+          <Image Name="bt_minus.png" />
+          <Image Name="bt_plus.png" />
+          <Image Name="effect.png" />
+          <Image Name="im_setting_title.png" />
+          <Image Name="setting_bg.png" />
+          <Image Name="slider_bg.png" />
+          <Image Name="slider_progress.png" />
+          <Image Name="slider_thumb.png" />
+          <Image Name="txt_effect.png" />
+          <Image Name="txt_music.png" />
+          <Image Name="txt_shack_close.png" />
+          <Image Name="txt_shack_open.png" />
+          <Image Name="txt_sound_off.png" />
+        </Folder>
+        <Project Name="Bank.csd" Type="Node" />
+        <Project Name="Cannon.csd" Type="Scene" />
+        <Project Name="GameClear.csd" Type="Node" />
+        <Project Name="Help.csd" Type="Node" />
+        <Project Name="Setting.csd" Type="Node" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

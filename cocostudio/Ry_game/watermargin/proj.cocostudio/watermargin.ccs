@@ -1,0 +1,450 @@
+<Solution>
+  <PropertyGroup Name="watermargin" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="common">
+          <Image Name="game1_comon_1.png" />
+        </Folder>
+        <Folder Name="fonts">
+          <TTF Name="round_body.ttf" />
+        </Folder>
+        <Folder Name="game1">
+          <Folder Name="gameAction">
+            <PlistImageFolder Image="dagu.png" PListFile="dagu.plist" Name=".dagu_PList.Dir">
+              <PlistImageFile Name="action_dagu_01.png" Key="action_dagu_01.png" />
+              <PlistImageFile Name="action_dagu_02.png" Key="action_dagu_02.png" />
+              <PlistImageFile Name="action_dagu_03.png" Key="action_dagu_03.png" />
+              <PlistImageFile Name="action_dagu_04.png" Key="action_dagu_04.png" />
+              <PlistImageFile Name="action_dagu_05.png" Key="action_dagu_05.png" />
+              <PlistImageFile Name="action_dagu_06.png" Key="action_dagu_06.png" />
+              <PlistImageFile Name="action_dagu_07.png" Key="action_dagu_07.png" />
+              <PlistImageFile Name="action_dagu_08.png" Key="action_dagu_08.png" />
+              <PlistImageFile Name="action_dagu_09.png" Key="action_dagu_09.png" />
+              <PlistImageFile Name="action_dagu_10.png" Key="action_dagu_10.png" />
+              <PlistImageFile Name="action_dagu_11.png" Key="action_dagu_11.png" />
+              <PlistImageFile Name="action_dagu_12.png" Key="action_dagu_12.png" />
+              <PlistImageFile Name="action_dagu_13.png" Key="action_dagu_13.png" />
+              <PlistImageFile Name="action_dagu_14.png" Key="action_dagu_14.png" />
+              <PlistImageFile Name="action_dagu_15.png" Key="action_dagu_15.png" />
+              <PlistImageFile Name="action_dagu_16.png" Key="action_dagu_16.png" />
+              <PlistImageFile Name="action_dagu_17.png" Key="action_dagu_17.png" />
+              <PlistImageFile Name="action_dagu_18.png" Key="action_dagu_18.png" />
+              <PlistImageFile Name="action_dagu_19.png" Key="action_dagu_19.png" />
+              <PlistImageFile Name="action_dagu_20.png" Key="action_dagu_20.png" />
+              <PlistImageFile Name="action_dagu_21.png" Key="action_dagu_21.png" />
+              <PlistImageFile Name="action_dagu_22.png" Key="action_dagu_22.png" />
+              <PlistImageFile Name="action_dagu_23.png" Key="action_dagu_23.png" />
+              <PlistImageFile Name="action_dagu_24.png" Key="action_dagu_24.png" />
+              <PlistImageFile Name="action_dagu_25.png" Key="action_dagu_25.png" />
+              <PlistImageFile Name="action_dagu_26.png" Key="action_dagu_26.png" />
+              <PlistImageFile Name="action_dagu_27.png" Key="action_dagu_27.png" />
+              <PlistImageFile Name="action_dagu_28.png" Key="action_dagu_28.png" />
+              <PlistImageFile Name="action_dagu_29.png" Key="action_dagu_29.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="flash.png" PListFile="flash.plist" Name=".flash_PList.Dir">
+              <PlistImageFile Name="game1_flash_01.png" Key="game1_flash_01.png" />
+              <PlistImageFile Name="game1_flash_02.png" Key="game1_flash_02.png" />
+              <PlistImageFile Name="game1_flash_03.png" Key="game1_flash_03.png" />
+              <PlistImageFile Name="game1_flash_04.png" Key="game1_flash_04.png" />
+              <PlistImageFile Name="game1_flash_05.png" Key="game1_flash_05.png" />
+              <PlistImageFile Name="game1_flash_06.png" Key="game1_flash_06.png" />
+              <PlistImageFile Name="game1_flash_07.png" Key="game1_flash_07.png" />
+              <PlistImageFile Name="game1_flash_08.png" Key="game1_flash_08.png" />
+              <PlistImageFile Name="game1_flash_09.png" Key="game1_flash_09.png" />
+              <PlistImageFile Name="game1_flash_10.png" Key="game1_flash_10.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="piaoqi.png" PListFile="piaoqi.plist" Name=".piaoqi_PList.Dir">
+              <PlistImageFile Name="action_wyaoqi_01.png" Key="action_wyaoqi_01.png" />
+              <PlistImageFile Name="action_wyaoqi_02.png" Key="action_wyaoqi_02.png" />
+              <PlistImageFile Name="action_wyaoqi_03.png" Key="action_wyaoqi_03.png" />
+              <PlistImageFile Name="action_wyaoqi_04.png" Key="action_wyaoqi_04.png" />
+              <PlistImageFile Name="action_wyaoqi_05.png" Key="action_wyaoqi_05.png" />
+              <PlistImageFile Name="action_wyaoqi_06.png" Key="action_wyaoqi_06.png" />
+              <PlistImageFile Name="action_wyaoqi_07.png" Key="action_wyaoqi_07.png" />
+              <PlistImageFile Name="action_wyaoqi_08.png" Key="action_wyaoqi_08.png" />
+              <PlistImageFile Name="action_wyaoqi_09.png" Key="action_wyaoqi_09.png" />
+              <PlistImageFile Name="action_wyaoqi_10.png" Key="action_wyaoqi_10.png" />
+              <PlistImageFile Name="action_wyaoqi_11.png" Key="action_wyaoqi_11.png" />
+              <PlistImageFile Name="action_wyaoqi_12.png" Key="action_wyaoqi_12.png" />
+              <PlistImageFile Name="action_wyaoqi_13.png" Key="action_wyaoqi_13.png" />
+              <PlistImageFile Name="action_wyaoqi_14.png" Key="action_wyaoqi_14.png" />
+              <PlistImageFile Name="action_wyaoqi_15.png" Key="action_wyaoqi_15.png" />
+              <PlistImageFile Name="action_wyaoqi_16.png" Key="action_wyaoqi_16.png" />
+              <PlistImageFile Name="action_wyaoqi_17.png" Key="action_wyaoqi_17.png" />
+              <PlistImageFile Name="action_wyaoqi_18.png" Key="action_wyaoqi_18.png" />
+              <PlistImageFile Name="action_wyaoqi_19.png" Key="action_wyaoqi_19.png" />
+              <PlistImageFile Name="action_wyaoqi_20.png" Key="action_wyaoqi_20.png" />
+              <PlistImageFile Name="action_wyaoqi_21.png" Key="action_wyaoqi_21.png" />
+              <PlistImageFile Name="action_wyaoqi_22.png" Key="action_wyaoqi_22.png" />
+              <PlistImageFile Name="action_wyaoqi_23.png" Key="action_wyaoqi_23.png" />
+              <PlistImageFile Name="action_wyaoqi_24.png" Key="action_wyaoqi_24.png" />
+              <PlistImageFile Name="action_wyaoqi_25.png" Key="action_wyaoqi_25.png" />
+              <PlistImageFile Name="action_wyaoqi_26.png" Key="action_wyaoqi_26.png" />
+              <PlistImageFile Name="action_wyaoqi_27.png" Key="action_wyaoqi_27.png" />
+              <PlistImageFile Name="action_wyaoqi_28.png" Key="action_wyaoqi_28.png" />
+              <PlistImageFile Name="action_wyaoqi_29.png" Key="action_wyaoqi_29.png" />
+              <PlistImageFile Name="action_wyaoqi_30.png" Key="action_wyaoqi_30.png" />
+              <PlistImageFile Name="action_wyaoqi_31.png" Key="action_wyaoqi_31.png" />
+              <PlistImageFile Name="action_wyaoqi_32.png" Key="action_wyaoqi_32.png" />
+              <PlistImageFile Name="action_wyaoqi_33.png" Key="action_wyaoqi_33.png" />
+              <PlistImageFile Name="action_wyaoqi_34.png" Key="action_wyaoqi_34.png" />
+              <PlistImageFile Name="action_wyaoqi_35.png" Key="action_wyaoqi_35.png" />
+              <PlistImageFile Name="action_wyaoqi_36.png" Key="action_wyaoqi_36.png" />
+              <PlistImageFile Name="action_wyaoqi_37.png" Key="action_wyaoqi_37.png" />
+              <PlistImageFile Name="action_wyaoqi_38.png" Key="action_wyaoqi_38.png" />
+              <PlistImageFile Name="action_wyaoqi_39.png" Key="action_wyaoqi_39.png" />
+              <PlistImageFile Name="action_wyaoqi_40.png" Key="action_wyaoqi_40.png" />
+              <PlistImageFile Name="action_wyaoqi_41.png" Key="action_wyaoqi_41.png" />
+              <PlistImageFile Name="action_wyaoqi_42.png" Key="action_wyaoqi_42.png" />
+              <PlistImageFile Name="action_wyaoqi_43.png" Key="action_wyaoqi_43.png" />
+              <PlistImageFile Name="action_wyaoqi_44.png" Key="action_wyaoqi_44.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="piaoqi2.png" PListFile="piaoqi2.plist" Name=".piaoqi2_PList.Dir">
+              <PlistImageFile Name="action_ryaoqi_01.png" Key="action_ryaoqi_01.png" />
+              <PlistImageFile Name="action_ryaoqi_02.png" Key="action_ryaoqi_02.png" />
+              <PlistImageFile Name="action_ryaoqi_03.png" Key="action_ryaoqi_03.png" />
+              <PlistImageFile Name="action_ryaoqi_04.png" Key="action_ryaoqi_04.png" />
+              <PlistImageFile Name="action_ryaoqi_05.png" Key="action_ryaoqi_05.png" />
+              <PlistImageFile Name="action_ryaoqi_06.png" Key="action_ryaoqi_06.png" />
+              <PlistImageFile Name="action_ryaoqi_07.png" Key="action_ryaoqi_07.png" />
+              <PlistImageFile Name="action_ryaoqi_08.png" Key="action_ryaoqi_08.png" />
+              <PlistImageFile Name="action_ryaoqi_09.png" Key="action_ryaoqi_09.png" />
+              <PlistImageFile Name="action_ryaoqi_10.png" Key="action_ryaoqi_10.png" />
+              <PlistImageFile Name="action_ryaoqi_11.png" Key="action_ryaoqi_11.png" />
+              <PlistImageFile Name="action_ryaoqi_12.png" Key="action_ryaoqi_12.png" />
+              <PlistImageFile Name="action_ryaoqi_13.png" Key="action_ryaoqi_13.png" />
+              <PlistImageFile Name="action_ryaoqi_14.png" Key="action_ryaoqi_14.png" />
+              <PlistImageFile Name="action_ryaoqi_15.png" Key="action_ryaoqi_15.png" />
+              <PlistImageFile Name="action_ryaoqi_16.png" Key="action_ryaoqi_16.png" />
+              <PlistImageFile Name="action_ryaoqi_17.png" Key="action_ryaoqi_17.png" />
+              <PlistImageFile Name="action_ryaoqi_18.png" Key="action_ryaoqi_18.png" />
+              <PlistImageFile Name="action_ryaoqi_19.png" Key="action_ryaoqi_19.png" />
+              <PlistImageFile Name="action_ryaoqi_20.png" Key="action_ryaoqi_20.png" />
+              <PlistImageFile Name="action_ryaoqi_21.png" Key="action_ryaoqi_21.png" />
+              <PlistImageFile Name="action_ryaoqi_22.png" Key="action_ryaoqi_22.png" />
+              <PlistImageFile Name="action_ryaoqi_23.png" Key="action_ryaoqi_23.png" />
+              <PlistImageFile Name="action_ryaoqi_24.png" Key="action_ryaoqi_24.png" />
+              <PlistImageFile Name="action_ryaoqi_25.png" Key="action_ryaoqi_25.png" />
+              <PlistImageFile Name="action_ryaoqi_26.png" Key="action_ryaoqi_26.png" />
+              <PlistImageFile Name="action_ryaoqi_27.png" Key="action_ryaoqi_27.png" />
+              <PlistImageFile Name="action_ryaoqi_28.png" Key="action_ryaoqi_28.png" />
+              <PlistImageFile Name="action_ryaoqi_29.png" Key="action_ryaoqi_29.png" />
+              <PlistImageFile Name="action_ryaoqi_30.png" Key="action_ryaoqi_30.png" />
+              <PlistImageFile Name="action_ryaoqi_31.png" Key="action_ryaoqi_31.png" />
+              <PlistImageFile Name="action_ryaoqi_32.png" Key="action_ryaoqi_32.png" />
+              <PlistImageFile Name="action_ryaoqi_33.png" Key="action_ryaoqi_33.png" />
+              <PlistImageFile Name="action_ryaoqi_34.png" Key="action_ryaoqi_34.png" />
+              <PlistImageFile Name="action_ryaoqi_35.png" Key="action_ryaoqi_35.png" />
+              <PlistImageFile Name="action_ryaoqi_36.png" Key="action_ryaoqi_36.png" />
+              <PlistImageFile Name="action_ryaoqi_37.png" Key="action_ryaoqi_37.png" />
+              <PlistImageFile Name="action_ryaoqi_38.png" Key="action_ryaoqi_38.png" />
+              <PlistImageFile Name="action_ryaoqi_39.png" Key="action_ryaoqi_39.png" />
+              <PlistImageFile Name="action_ryaoqi_40.png" Key="action_ryaoqi_40.png" />
+              <PlistImageFile Name="action_ryaoqi_41.png" Key="action_ryaoqi_41.png" />
+              <PlistImageFile Name="action_ryaoqi_42.png" Key="action_ryaoqi_42.png" />
+              <PlistImageFile Name="action_ryaoqi_43.png" Key="action_ryaoqi_43.png" />
+              <PlistImageFile Name="action_ryaoqi_44.png" Key="action_ryaoqi_44.png" />
+              <PlistImageFile Name="action_ryaoqi_45.png" Key="action_ryaoqi_45.png" />
+              <PlistImageFile Name="action_ryaoqi_46.png" Key="action_ryaoqi_46.png" />
+              <PlistImageFile Name="action_ryaoqi_47.png" Key="action_ryaoqi_47.png" />
+              <PlistImageFile Name="action_ryaoqi_48.png" Key="action_ryaoqi_48.png" />
+              <PlistImageFile Name="action_ryaoqi_49.png" Key="action_ryaoqi_49.png" />
+              <PlistImageFile Name="action_ryaoqi_50.png" Key="action_ryaoqi_50.png" />
+              <PlistImageFile Name="action_ryaoqi_51.png" Key="action_ryaoqi_51.png" />
+              <PlistImageFile Name="action_ryaoqi_52.png" Key="action_ryaoqi_52.png" />
+              <PlistImageFile Name="action_ryaoqi_53.png" Key="action_ryaoqi_53.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="shz_title.png" PListFile="shz_title.plist" Name=".shz_title_PList.Dir">
+              <PlistImageFile Name="action_title_01.png" Key="action_title_01.png" />
+              <PlistImageFile Name="action_title_02.png" Key="action_title_02.png" />
+              <PlistImageFile Name="action_title_03.png" Key="action_title_03.png" />
+              <PlistImageFile Name="action_title_04.png" Key="action_title_04.png" />
+              <PlistImageFile Name="action_title_05.png" Key="action_title_05.png" />
+              <PlistImageFile Name="action_title_06.png" Key="action_title_06.png" />
+              <PlistImageFile Name="action_title_07.png" Key="action_title_07.png" />
+              <PlistImageFile Name="action_title_08.png" Key="action_title_08.png" />
+              <PlistImageFile Name="action_title_09.png" Key="action_title_09.png" />
+              <PlistImageFile Name="action_title_10.png" Key="action_title_10.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Image Name="arrow.png" />
+          <Image Name="game1_add_1.png" />
+          <Image Name="game1_add_2.png" />
+          <Image Name="game1_auto_1.png" />
+          <Image Name="game1_auto_2.png" />
+          <Image Name="game1_back_1.png" />
+          <Image Name="game1_back_2.png" />
+          <Image Name="game1_bgs.png" />
+          <Image Name="game1_check.png" />
+          <Image Name="game1_help_1.png" />
+          <Image Name="game1_help_2.png" />
+          <Image Name="game1_hide_1.png" />
+          <Image Name="game1_hide_2.png" />
+          <Image Name="game1_max_1.png" />
+          <Image Name="game1_max_2.png" />
+          <Image Name="game1_min_1.png" />
+          <Image Name="game1_min_2.png" />
+          <Image Name="game1_multiply_1.png" />
+          <Image Name="game1_multiply_2.png" />
+          <Image Name="game1_multiply_3.png" />
+          <Image Name="game1_set_1.png" />
+          <Image Name="game1_set_2.png" />
+          <Image Name="game1_show_1.png" />
+          <Image Name="game1_show_2.png" />
+          <Image Name="game1_start_1.png" />
+          <Image Name="game1_start_2.png" />
+          <Image Name="game1_sub_1.png" />
+          <Image Name="game1_sub_2.png" />
+          <Image Name="game1_top_bg.png" />
+          <Image Name="game1Bg.png" />
+          <Image Name="win.png" />
+        </Folder>
+        <Folder Name="game2">
+          <Folder Name="dealer">
+            <PlistImageFolder Image="dealer_anger1.png" PListFile="dealer_anger1.plist" Name=".dealer_anger1_PList.Dir">
+              <PlistImageFile Name="dealer_anger_01.png" Key="dealer_anger_01.png" />
+              <PlistImageFile Name="dealer_anger_02.png" Key="dealer_anger_02.png" />
+              <PlistImageFile Name="dealer_anger_03.png" Key="dealer_anger_03.png" />
+              <PlistImageFile Name="dealer_anger_04.png" Key="dealer_anger_04.png" />
+              <PlistImageFile Name="dealer_anger_05.png" Key="dealer_anger_05.png" />
+              <PlistImageFile Name="dealer_anger_06.png" Key="dealer_anger_06.png" />
+              <PlistImageFile Name="dealer_anger_07.png" Key="dealer_anger_07.png" />
+              <PlistImageFile Name="dealer_anger_08.png" Key="dealer_anger_08.png" />
+              <PlistImageFile Name="dealer_anger_09.png" Key="dealer_anger_09.png" />
+              <PlistImageFile Name="dealer_anger_10.png" Key="dealer_anger_10.png" />
+              <PlistImageFile Name="dealer_anger_11.png" Key="dealer_anger_11.png" />
+              <PlistImageFile Name="dealer_anger_12.png" Key="dealer_anger_12.png" />
+              <PlistImageFile Name="dealer_anger_2.png" Key="dealer_anger_2.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="dealer_common.png" PListFile="dealer_common.plist" Name=".dealer_common_PList.Dir">
+              <PlistImageFile Name="dealer_common_01.png" Key="dealer_common_01.png" />
+              <PlistImageFile Name="dealer_common_02.png" Key="dealer_common_02.png" />
+              <PlistImageFile Name="dealer_common_03.png" Key="dealer_common_03.png" />
+              <PlistImageFile Name="dealer_common_04.png" Key="dealer_common_04.png" />
+              <PlistImageFile Name="dealer_common_05.png" Key="dealer_common_05.png" />
+              <PlistImageFile Name="dealer_common_06.png" Key="dealer_common_06.png" />
+              <PlistImageFile Name="dealer_common_07.png" Key="dealer_common_07.png" />
+              <PlistImageFile Name="dealer_common_08.png" Key="dealer_common_08.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="dealer_dice1.png" PListFile="dealer_dice1.plist" Name=".dealer_dice1_PList.Dir">
+              <PlistImageFile Name="dealer_dice_01.png" Key="dealer_dice_01.png" />
+              <PlistImageFile Name="dealer_dice_02.png" Key="dealer_dice_02.png" />
+              <PlistImageFile Name="dealer_dice_03.png" Key="dealer_dice_03.png" />
+              <PlistImageFile Name="dealer_dice_04.png" Key="dealer_dice_04.png" />
+              <PlistImageFile Name="dealer_dice_05.png" Key="dealer_dice_05.png" />
+              <PlistImageFile Name="dealer_dice_06.png" Key="dealer_dice_06.png" />
+              <PlistImageFile Name="dealer_dice_07.png" Key="dealer_dice_07.png" />
+              <PlistImageFile Name="dealer_dice_08.png" Key="dealer_dice_08.png" />
+              <PlistImageFile Name="dealer_dice_09.png" Key="dealer_dice_09.png" />
+              <PlistImageFile Name="dealer_dice_10.png" Key="dealer_dice_10.png" />
+              <PlistImageFile Name="dealer_dice_11.png" Key="dealer_dice_11.png" />
+              <PlistImageFile Name="dealer_dice_12.png" Key="dealer_dice_12.png" />
+              <PlistImageFile Name="dealer_dice_13.png" Key="dealer_dice_13.png" />
+              <PlistImageFile Name="dealer_dice_14.png" Key="dealer_dice_14.png" />
+              <PlistImageFile Name="dealer_dice_15.png" Key="dealer_dice_15.png" />
+              <PlistImageFile Name="dealer_dice_16.png" Key="dealer_dice_16.png" />
+              <PlistImageFile Name="dealer_dice_17.png" Key="dealer_dice_17.png" />
+              <PlistImageFile Name="dealer_dice_18.png" Key="dealer_dice_18.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="dealer_happy.png" PListFile="dealer_happy.plist" Name=".dealer_happy_PList.Dir">
+              <PlistImageFile Name="dealer_happy_01.png" Key="dealer_happy_01.png" />
+              <PlistImageFile Name="dealer_happy_02.png" Key="dealer_happy_02.png" />
+              <PlistImageFile Name="dealer_happy_03.png" Key="dealer_happy_03.png" />
+              <PlistImageFile Name="dealer_happy_04.png" Key="dealer_happy_04.png" />
+              <PlistImageFile Name="dealer_happy_05.png" Key="dealer_happy_05.png" />
+              <PlistImageFile Name="dealer_happy_06.png" Key="dealer_happy_06.png" />
+              <PlistImageFile Name="dealer_happy_07.png" Key="dealer_happy_07.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="dealer_open.png" PListFile="dealer_open.plist" Name=".dealer_open_PList.Dir">
+              <PlistImageFile Name="dealer_open_01.png" Key="dealer_open_01.png" />
+              <PlistImageFile Name="dealer_open_02.png" Key="dealer_open_02.png" />
+              <PlistImageFile Name="dealer_open_03.png" Key="dealer_open_03.png" />
+              <PlistImageFile Name="dealer_open_04.png" Key="dealer_open_04.png" />
+              <PlistImageFile Name="dealer_open_05.png" Key="dealer_open_05.png" />
+              <PlistImageFile Name="dealer_open_06.png" Key="dealer_open_06.png" />
+              <PlistImageFile Name="dealer_open_07.png" Key="dealer_open_07.png" />
+              <PlistImageFile Name="dealer_open_08.png" Key="dealer_open_08.png" />
+              <PlistImageFile Name="dealer_open_09.png" Key="dealer_open_09.png" />
+              <PlistImageFile Name="dealer_open_10.png" Key="dealer_open_10.png" />
+              <PlistImageFile Name="dealer_open_11.png" Key="dealer_open_11.png" />
+              <PlistImageFile Name="dealer_open_12.png" Key="dealer_open_12.png" />
+              <PlistImageFile Name="dealer_open_13.png" Key="dealer_open_13.png" />
+              <PlistImageFile Name="dealer_open_14.png" Key="dealer_open_14.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Folder Name="desk">
+            <PlistImageFolder Image="desk.png" PListFile="desk.plist" Name=".desk_PList.Dir">
+              <PlistImageFile Name="desk_1.png" Key="desk_1.png" />
+              <PlistImageFile Name="desk_2.png" Key="desk_2.png" />
+              <PlistImageFile Name="desk_3.png" Key="desk_3.png" />
+              <PlistImageFile Name="desk_4.png" Key="desk_4.png" />
+              <PlistImageFile Name="desk_5.png" Key="desk_5.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Folder Name="gold_action">
+            <PlistImageFolder Image="gold.png" PListFile="gold.plist" Name=".gold_PList.Dir">
+              <PlistImageFile Name="game2_Gold_1.png" Key="game2_Gold_1.png" />
+              <PlistImageFile Name="game2_Gold_2.png" Key="game2_Gold_2.png" />
+              <PlistImageFile Name="game2_Gold_3.png" Key="game2_Gold_3.png" />
+              <PlistImageFile Name="game2_Gold_4.png" Key="game2_Gold_4.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Folder Name="left">
+            <PlistImageFolder Image="left_common.png" PListFile="left_common.plist" Name=".left_common_PList.Dir">
+              <PlistImageFile Name="left_common_01.png" Key="left_common_01.png" />
+              <PlistImageFile Name="left_common_02.png" Key="left_common_02.png" />
+              <PlistImageFile Name="left_common_03.png" Key="left_common_03.png" />
+              <PlistImageFile Name="left_common_04.png" Key="left_common_04.png" />
+              <PlistImageFile Name="left_common_05.png" Key="left_common_05.png" />
+              <PlistImageFile Name="left_common_06.png" Key="left_common_06.png" />
+              <PlistImageFile Name="left_common_07.png" Key="left_common_07.png" />
+              <PlistImageFile Name="left_common_08.png" Key="left_common_08.png" />
+              <PlistImageFile Name="left_common_09.png" Key="left_common_09.png" />
+              <PlistImageFile Name="left_common_10.png" Key="left_common_10.png" />
+              <PlistImageFile Name="left_common_11.png" Key="left_common_11.png" />
+              <PlistImageFile Name="left_common_12.png" Key="left_common_12.png" />
+              <PlistImageFile Name="left_common_13.png" Key="left_common_13.png" />
+              <PlistImageFile Name="left_common_14.png" Key="left_common_14.png" />
+              <PlistImageFile Name="left_common_15.png" Key="left_common_15.png" />
+              <PlistImageFile Name="left_common_16.png" Key="left_common_16.png" />
+              <PlistImageFile Name="left_common_17.png" Key="left_common_17.png" />
+              <PlistImageFile Name="left_common_18.png" Key="left_common_18.png" />
+              <PlistImageFile Name="left_common_19.png" Key="left_common_19.png" />
+              <PlistImageFile Name="left_common_20.png" Key="left_common_20.png" />
+              <PlistImageFile Name="left_common_21.png" Key="left_common_21.png" />
+              <PlistImageFile Name="left_common_22.png" Key="left_common_22.png" />
+              <PlistImageFile Name="left_common_23.png" Key="left_common_23.png" />
+              <PlistImageFile Name="left_common_24.png" Key="left_common_24.png" />
+              <PlistImageFile Name="left_common_25.png" Key="left_common_25.png" />
+              <PlistImageFile Name="left_common_26.png" Key="left_common_26.png" />
+              <PlistImageFile Name="left_common_27.png" Key="left_common_27.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Folder Name="right">
+            <PlistImageFolder Image="right_common.png" PListFile="right_common.plist" Name=".right_common_PList.Dir">
+              <PlistImageFile Name="right_common_01.png" Key="right_common_01.png" />
+              <PlistImageFile Name="right_common_02.png" Key="right_common_02.png" />
+              <PlistImageFile Name="right_common_03.png" Key="right_common_03.png" />
+              <PlistImageFile Name="right_common_04.png" Key="right_common_04.png" />
+              <PlistImageFile Name="right_common_05.png" Key="right_common_05.png" />
+              <PlistImageFile Name="right_common_06.png" Key="right_common_06.png" />
+              <PlistImageFile Name="right_common_07.png" Key="right_common_07.png" />
+              <PlistImageFile Name="right_common_08.png" Key="right_common_08.png" />
+              <PlistImageFile Name="right_common_09.png" Key="right_common_09.png" />
+              <PlistImageFile Name="right_common_10.png" Key="right_common_10.png" />
+              <PlistImageFile Name="right_common_11.png" Key="right_common_11.png" />
+              <PlistImageFile Name="right_common_12.png" Key="right_common_12.png" />
+              <PlistImageFile Name="right_common_13.png" Key="right_common_13.png" />
+              <PlistImageFile Name="right_common_14.png" Key="right_common_14.png" />
+              <PlistImageFile Name="right_common_15.png" Key="right_common_15.png" />
+              <PlistImageFile Name="right_common_16.png" Key="right_common_16.png" />
+              <PlistImageFile Name="right_common_17.png" Key="right_common_17.png" />
+              <PlistImageFile Name="right_common_18.png" Key="right_common_18.png" />
+              <PlistImageFile Name="right_common_19.png" Key="right_common_19.png" />
+              <PlistImageFile Name="right_common_20.png" Key="right_common_20.png" />
+              <PlistImageFile Name="right_common_21.png" Key="right_common_21.png" />
+              <PlistImageFile Name="right_common_22.png" Key="right_common_22.png" />
+              <PlistImageFile Name="right_common_23.png" Key="right_common_23.png" />
+              <PlistImageFile Name="right_common_24.png" Key="right_common_24.png" />
+              <PlistImageFile Name="right_common_25.png" Key="right_common_25.png" />
+            </PlistImageFolder>
+          </Folder>
+          <Image Name="bet_gold.png" />
+          <Image Name="game2_bg.png" />
+          <Image Name="game2_bg_Down.png" />
+          <Image Name="game2_btn_All_01.png" />
+          <Image Name="game2_btn_All_02.PNG" />
+          <Image Name="game2_btn_All_03.png" />
+          <Image Name="game2_btn_Double_01.png" />
+          <Image Name="game2_btn_Double_02.png" />
+          <Image Name="game2_btn_Double_03.png" />
+          <Image Name="game2_btn_get_01.png" />
+          <Image Name="game2_btn_get_02.png" />
+          <Image Name="game2_btn_GoOn_01.png" />
+          <Image Name="game2_btn_GoOn_02.png" />
+          <Image Name="game2_btn_half_01.png" />
+          <Image Name="game2_btn_half_02.png" />
+          <Image Name="game2_btn_half_03.png" />
+          <Image Name="game2_Gold.png" />
+          <Image Name="game2_light.png" />
+          <Image Name="game2_num_big.png" />
+          <Image Name="game2_num_small.png" />
+          <Image Name="touzi_big_1.png" />
+          <Image Name="touzi_big_2.png" />
+          <Image Name="touzi_big_3.png" />
+          <Image Name="touzi_big_4.png" />
+          <Image Name="touzi_big_5.png" />
+          <Image Name="touzi_big_6.png" />
+          <Image Name="touzi_small_1.png" />
+          <Image Name="touzi_small_2.png" />
+          <Image Name="touzi_small_3.png" />
+          <Image Name="touzi_small_4.png" />
+          <Image Name="touzi_small_5.png" />
+          <Image Name="touzi_small_6.png" />
+        </Folder>
+        <Folder Name="game3">
+          <Folder Name="icon">
+            <Image Name="icon_01.png" />
+            <Image Name="icon_02.png" />
+            <Image Name="icon_03.png" />
+            <Image Name="icon_04.png" />
+            <Image Name="icon_05.png" />
+            <Image Name="icon_06.png" />
+            <Image Name="icon_07.png" />
+            <Image Name="icon_08.png" />
+            <Image Name="icon_09.png" />
+          </Folder>
+          <Folder Name="time_light">
+            <Image Name="20L_01.png" />
+            <Image Name="20L_02.png" />
+            <Image Name="20R_01.png" />
+            <Image Name="20R_02.png" />
+            <Image Name="500_01.png" />
+            <Image Name="500_02.png" />
+          </Folder>
+          <Folder Name="times">
+            <Image Name="times_01.png" />
+            <Image Name="times_02.png" />
+            <Image Name="times_03.png" />
+            <Image Name="times_04.png" />
+            <Image Name="times_05.png" />
+            <Image Name="times_06.png" />
+            <Image Name="times_07.png" />
+            <Image Name="times_08.png" />
+          </Folder>
+          <Folder Name="tips">
+            <Image Name="tips_01.png" />
+            <Image Name="tips_02.png" />
+            <Image Name="tips_03.png" />
+            <Image Name="tips_04.png" />
+            <Image Name="tips_05.png" />
+            <Image Name="tips_06.png" />
+            <Image Name="tips_07.png" />
+            <Image Name="tips_08.png" />
+            <Image Name="tips_09.png" />
+            <Image Name="tips_10.png" />
+          </Folder>
+          <Image Name="game3_bg.png" />
+          <Image Name="time.png" />
+        </Folder>
+        <Folder Name="setting">
+          <PlistImageFolder Image="setLayer.png" PListFile="setLayer.plist" Name=".setLayer_PList.Dir">
+            <PlistImageFile Name="bg.png" Key="bg.png" />
+            <PlistImageFile Name="close_1.png" Key="close_1.png" />
+            <PlistImageFile Name="close_2.png" Key="close_2.png" />
+            <PlistImageFile Name="exit_1.png" Key="exit_1.png" />
+            <PlistImageFile Name="exit_2.PNG" Key="exit_2.PNG" />
+            <PlistImageFile Name="open_1.png" Key="open_1.png" />
+            <PlistImageFile Name="open_2.png" Key="open_2.png" />
+          </PlistImageFolder>
+        </Folder>
+        <Image Name="HelloWorld.png" />
+        <Project Name="SHZ_Game1Layer.csd" Type="Scene" />
+        <Project Name="SHZ_Game2Layer.csd" Type="Scene" />
+        <Project Name="SHZ_Game3Layer.csd" Type="Scene" />
+        <Project Name="SHZ_GameSetting.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

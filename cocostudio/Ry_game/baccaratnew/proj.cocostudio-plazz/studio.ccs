@@ -1,0 +1,248 @@
+<Solution>
+  <PropertyGroup Name="studio" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="bank">
+          <PlistImageFolder Image="bank.png" PListFile="bank.plist" Name=".bank_PList.Dir">
+            <PlistImageFile Name="btn_out.png" Key="btn_out.png" />
+            <PlistImageFile Name="sp_bg.png" Key="sp_bg.png" />
+            <PlistImageFile Name="sp_current.png" Key="sp_current.png" />
+            <PlistImageFile Name="sp_input_num.png" Key="sp_input_num.png" />
+            <PlistImageFile Name="sp_input_pass.png" Key="sp_input_pass.png" />
+          </PlistImageFolder>
+          <Project Name="BankLayer.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="fonts">
+          <TTF Name="round_body.ttf" />
+        </Folder>
+        <Folder Name="game">
+          <PlistImageFolder Image="game.png" PListFile="game.plist" Name=".game_PList.Dir">
+            <PlistImageFile Name="banker_bg.png" Key="banker_bg.png" />
+            <PlistImageFile Name="bt_list_bg.png" Key="bt_list_bg.png" />
+            <PlistImageFile Name="btn_apply_banker_0.png" Key="btn_apply_banker_0.png" />
+            <PlistImageFile Name="btn_apply_banker_1.png" Key="btn_apply_banker_1.png" />
+            <PlistImageFile Name="btn_applylist_0.png" Key="btn_applylist_0.png" />
+            <PlistImageFile Name="btn_applylist_1.png" Key="btn_applylist_1.png" />
+            <PlistImageFile Name="btn_cancel_apply_0.png" Key="btn_cancel_apply_0.png" />
+            <PlistImageFile Name="btn_cancel_apply_1.png" Key="btn_cancel_apply_1.png" />
+            <PlistImageFile Name="btn_cancel_banker_0.png" Key="btn_cancel_banker_0.png" />
+            <PlistImageFile Name="btn_cancel_banker_1.png" Key="btn_cancel_banker_1.png" />
+            <PlistImageFile Name="btn_return_0.png" Key="btn_return_0.png" />
+            <PlistImageFile Name="btn_return_1.png" Key="btn_return_1.png" />
+            <PlistImageFile Name="btn_robbanker_0.png" Key="btn_robbanker_0.png" />
+            <PlistImageFile Name="btn_robbanker_1.png" Key="btn_robbanker_1.png" />
+            <PlistImageFile Name="btn_set_0.png" Key="btn_set_0.png" />
+            <PlistImageFile Name="btn_set_1.png" Key="btn_set_1.png" />
+            <PlistImageFile Name="btn_sitdown.png" Key="btn_sitdown.png" />
+            <PlistImageFile Name="btn_userlist_0.png" Key="btn_userlist_0.png" />
+            <PlistImageFile Name="btn_userlist_1.png" Key="btn_userlist_1.png" />
+            <PlistImageFile Name="clearing_0.png" Key="clearing_0.png" />
+            <PlistImageFile Name="clearing_1.png" Key="clearing_1.png" />
+            <PlistImageFile Name="clearing_2.png" Key="clearing_2.png" />
+            <PlistImageFile Name="clearing_3.png" Key="clearing_3.png" />
+            <PlistImageFile Name="clearing_4.png" Key="clearing_4.png" />
+            <PlistImageFile Name="clearing_5.png" Key="clearing_5.png" />
+            <PlistImageFile Name="clearing_6.png" Key="clearing_6.png" />
+            <PlistImageFile Name="clearing_7.png" Key="clearing_7.png" />
+            <PlistImageFile Name="clearing_8.png" Key="clearing_8.png" />
+            <PlistImageFile Name="clearing_9.png" Key="clearing_9.png" />
+            <PlistImageFile Name="click_effect_0.png" Key="click_effect_0.png" />
+            <PlistImageFile Name="click_effect_1.png" Key="click_effect_1.png" />
+            <PlistImageFile Name="click_effect_2.png" Key="click_effect_2.png" />
+            <PlistImageFile Name="click_effect_3.png" Key="click_effect_3.png" />
+            <PlistImageFile Name="click_effect_4.png" Key="click_effect_4.png" />
+            <PlistImageFile Name="click_effect_5.png" Key="click_effect_5.png" />
+            <PlistImageFile Name="click_effect_6.png" Key="click_effect_6.png" />
+            <PlistImageFile Name="click_effect_7.png" Key="click_effect_7.png" />
+            <PlistImageFile Name="game_ludan_bg.png" Key="game_ludan_bg.png" />
+            <PlistImageFile Name="game_ludan_down.png" Key="game_ludan_down.png" />
+            <PlistImageFile Name="game_ludan_up.png" Key="game_ludan_up.png" />
+            <PlistImageFile Name="game_ludan1_ping.png" Key="game_ludan1_ping.png" />
+            <PlistImageFile Name="game_ludan1_xian.png" Key="game_ludan1_xian.png" />
+            <PlistImageFile Name="game_ludan1_zhuang.png" Key="game_ludan1_zhuang.png" />
+            <PlistImageFile Name="game_ludan2_ping.png" Key="game_ludan2_ping.png" />
+            <PlistImageFile Name="game_ludan2_xian.png" Key="game_ludan2_xian.png" />
+            <PlistImageFile Name="game_ludan2_zhuang.png" Key="game_ludan2_zhuang.png" />
+            <PlistImageFile Name="game_topMenu.png" Key="game_topMenu.png" />
+            <PlistImageFile Name="gameend_background.png" Key="gameend_background.png" />
+            <PlistImageFile Name="player_bg.png" Key="player_bg.png" />
+            <PlistImageFile Name="player_info.png" Key="player_info.png" />
+            <PlistImageFile Name="player_vip.png" Key="player_vip.png" />
+            <PlistImageFile Name="room_button_bank.png" Key="room_button_bank.png" />
+            <PlistImageFile Name="room_button_bank_1.png" Key="room_button_bank_1.png" />
+            <PlistImageFile Name="room_chip_2_0.png" Key="room_chip_2_0.png" />
+            <PlistImageFile Name="room_chip_2_1.png" Key="room_chip_2_1.png" />
+            <PlistImageFile Name="room_chip_2_2.png" Key="room_chip_2_2.png" />
+            <PlistImageFile Name="room_chip_3_0.png" Key="room_chip_3_0.png" />
+            <PlistImageFile Name="room_chip_3_1.png" Key="room_chip_3_1.png" />
+            <PlistImageFile Name="room_chip_3_2.png" Key="room_chip_3_2.png" />
+            <PlistImageFile Name="room_chip_4_0.png" Key="room_chip_4_0.png" />
+            <PlistImageFile Name="room_chip_4_1.png" Key="room_chip_4_1.png" />
+            <PlistImageFile Name="room_chip_4_2.png" Key="room_chip_4_2.png" />
+            <PlistImageFile Name="room_chip_5_0.png" Key="room_chip_5_0.png" />
+            <PlistImageFile Name="room_chip_5_1.png" Key="room_chip_5_1.png" />
+            <PlistImageFile Name="room_chip_5_2.png" Key="room_chip_5_2.png" />
+            <PlistImageFile Name="room_chip_6_0.png" Key="room_chip_6_0.png" />
+            <PlistImageFile Name="room_chip_6_1.png" Key="room_chip_6_1.png" />
+            <PlistImageFile Name="room_chip_6_2.png" Key="room_chip_6_2.png" />
+            <PlistImageFile Name="room_chip_7_0.png" Key="room_chip_7_0.png" />
+            <PlistImageFile Name="room_chip_7_1.png" Key="room_chip_7_1.png" />
+            <PlistImageFile Name="room_chip_7_2.png" Key="room_chip_7_2.png" />
+            <PlistImageFile Name="room_clearing_flat.png" Key="room_clearing_flat.png" />
+            <PlistImageFile Name="room_clearing_ldlefail.png" Key="room_clearing_ldlefail.png" />
+            <PlistImageFile Name="room_clearing_ldlewin.png" Key="room_clearing_ldlewin.png" />
+            <PlistImageFile Name="room_clearing_masterfail.png" Key="room_clearing_masterfail.png" />
+            <PlistImageFile Name="room_clearing_masterwin.png" Key="room_clearing_masterwin.png" />
+            <PlistImageFile Name="room_single_lose.png" Key="room_single_lose.png" />
+            <PlistImageFile Name="room_single_tip_l.png" Key="room_single_tip_l.png" />
+            <PlistImageFile Name="room_single_tip_l_1.png" Key="room_single_tip_l_1.png" />
+            <PlistImageFile Name="room_single_tip_r.png" Key="room_single_tip_r.png" />
+            <PlistImageFile Name="room_single_tip_r_1.png" Key="room_single_tip_r_1.png" />
+            <PlistImageFile Name="room_single_win.png" Key="room_single_win.png" />
+            <PlistImageFile Name="room_single_win_1.png" Key="room_single_win_1.png" />
+            <PlistImageFile Name="sitdown_effect.png" Key="sitdown_effect.png" />
+            <PlistImageFile Name="sp_applylist_bg.png" Key="sp_applylist_bg.png" />
+            <PlistImageFile Name="sp_banker.png" Key="sp_banker.png" />
+            <PlistImageFile Name="sp_gold.png" Key="sp_gold.png" />
+            <PlistImageFile Name="sp_jetton_bg.png" Key="sp_jetton_bg.png" />
+            <PlistImageFile Name="sp_line.png" Key="sp_line.png" />
+            <PlistImageFile Name="sp_rob.png" Key="sp_rob.png" />
+            <PlistImageFile Name="sp_time_bg.png" Key="sp_time_bg.png" />
+            <PlistImageFile Name="sp_tip_1.png" Key="sp_tip_1.png" />
+            <PlistImageFile Name="sp_tip_2.png" Key="sp_tip_2.png" />
+            <PlistImageFile Name="sp_tip_3.png" Key="sp_tip_3.png" />
+            <PlistImageFile Name="sp_userlist_bg.png" Key="sp_userlist_bg.png" />
+            <PlistImageFile Name="win_effect_0.png" Key="win_effect_0.png" />
+            <PlistImageFile Name="win_effect_1.png" Key="win_effect_1.png" />
+            <PlistImageFile Name="win_effect_2.png" Key="win_effect_2.png" />
+            <PlistImageFile Name="win_effect_3.png" Key="win_effect_3.png" />
+            <PlistImageFile Name="win_effect_4.png" Key="win_effect_4.png" />
+            <PlistImageFile Name="win_effect_5.png" Key="win_effect_5.png" />
+            <PlistImageFile Name="win_effect_6.png" Key="win_effect_6.png" />
+            <PlistImageFile Name="win_effect_7.png" Key="win_effect_7.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="pk_card.png" PListFile="pk_card.plist" Name=".pk_card_PList.Dir">
+            <PlistImageFile Name="ani_lighting_1.png" Key="ani_lighting_1.png" />
+            <PlistImageFile Name="ani_lighting_2.png" Key="ani_lighting_2.png" />
+            <PlistImageFile Name="ani_lighting_3.png" Key="ani_lighting_3.png" />
+            <PlistImageFile Name="ani_lighting_4.png" Key="ani_lighting_4.png" />
+            <PlistImageFile Name="ani_lighting_5.png" Key="ani_lighting_5.png" />
+            <PlistImageFile Name="ani_lighting_6.png" Key="ani_lighting_6.png" />
+            <PlistImageFile Name="ani_pk_1.png" Key="ani_pk_1.png" />
+            <PlistImageFile Name="ani_pk_2.png" Key="ani_pk_2.png" />
+            <PlistImageFile Name="ani_pk_3.png" Key="ani_pk_3.png" />
+            <PlistImageFile Name="ani_pk_4.png" Key="ani_pk_4.png" />
+            <PlistImageFile Name="ani_pk_5.png" Key="ani_pk_5.png" />
+            <PlistImageFile Name="ani_pk_6.png" Key="ani_pk_6.png" />
+            <PlistImageFile Name="ani_pk_7.png" Key="ani_pk_7.png" />
+            <PlistImageFile Name="sp_pk_l.png" Key="sp_pk_l.png" />
+            <PlistImageFile Name="sp_pk_r.png" Key="sp_pk_r.png" />
+          </PlistImageFolder>
+          <Project Name="AntiCheatLayer.csd" Type="Layer" />
+          <Project Name="ApplyListLayer.csd" Type="Layer" />
+          <Image Name="atlas_add.png" />
+          <Image Name="atlas_sub.png" />
+          <Image Name="atlas_time_num.png" />
+          <Project Name="GameCardLayer.csd" Type="Layer" />
+          <Project Name="GameClockNode.csd" Type="Node" />
+          <Project Name="GameEffectLayer.csd" Type="Layer" />
+          <Project Name="GameLayer.csd" Type="Layer" />
+          <Project Name="GameResultLayer.csd" Type="Layer" />
+          <Project Name="JettonNode.csd" Type="Node" />
+          <Image Name="room_chipbg.png" />
+          <Image Name="room_clearing_no2.png" />
+          <Image Name="room_clearing_no3.png" />
+          <Project Name="SitRoleNode.csd" Type="Node" />
+          <Project Name="UserItem.csd" Type="Node" />
+          <Project Name="UserListLayer.csd" Type="Layer" />
+          <Project Name="WallBill.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="help">
+          <Project Name="HelpLayer.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="plaza">
+          <PlistImageFolder Image="plaza.png" PListFile="plaza.plist" Name=".plaza_PList.Dir">
+            <PlistImageFile Name="122-title.png" Key="122-title.png" />
+            <PlistImageFile Name="back_btn.png" Key="back_btn.png" />
+            <PlistImageFile Name="bg_input_password.png" Key="bg_input_password.png" />
+            <PlistImageFile Name="bt_ok_down.png" Key="bt_ok_down.png" />
+            <PlistImageFile Name="bt_ok_up.png" Key="bt_ok_up.png" />
+            <PlistImageFile Name="dengjitiao.png" Key="dengjitiao.png" />
+            <PlistImageFile Name="desk_framback.png" Key="desk_framback.png" />
+            <PlistImageFile Name="desk_lock.png" Key="desk_lock.png" />
+            <PlistImageFile Name="desk_noBody.png" Key="desk_noBody.png" />
+            <PlistImageFile Name="desk_playing.png" Key="desk_playing.png" />
+            <PlistImageFile Name="desk_pwd.png" Key="desk_pwd.png" />
+            <PlistImageFile Name="desk_pwd_text.png" Key="desk_pwd_text.png" />
+            <PlistImageFile Name="desk_quickEnter.png" Key="desk_quickEnter.png" />
+            <PlistImageFile Name="desk_ready.png" Key="desk_ready.png" />
+            <PlistImageFile Name="flag_group.png" Key="flag_group.png" />
+            <PlistImageFile Name="game_page_0.png" Key="game_page_0.png" />
+            <PlistImageFile Name="game_page_1.png" Key="game_page_1.png" />
+            <PlistImageFile Name="group_exit.png" Key="group_exit.png" />
+            <PlistImageFile Name="group_join.png" Key="group_join.png" />
+            <PlistImageFile Name="group_mode.png" Key="group_mode.png" />
+            <PlistImageFile Name="level_cat.png" Key="level_cat.png" />
+            <PlistImageFile Name="level_progress.png" Key="level_progress.png" />
+            <PlistImageFile Name="room_0.png" Key="room_0.png" />
+            <PlistImageFile Name="room_1.png" Key="room_1.png" />
+            <PlistImageFile Name="room_2.png" Key="room_2.png" />
+            <PlistImageFile Name="room_3.png" Key="room_3.png" />
+            <PlistImageFile Name="room_menu_back.png" Key="room_menu_back.png" />
+            <PlistImageFile Name="room_type_1.png" Key="room_type_1.png" />
+            <PlistImageFile Name="room_type_10.png" Key="room_type_10.png" />
+            <PlistImageFile Name="room_type_2.png" Key="room_type_2.png" />
+            <PlistImageFile Name="room_type_3.png" Key="room_type_3.png" />
+            <PlistImageFile Name="room_type_4.png" Key="room_type_4.png" />
+            <PlistImageFile Name="room_type_5.png" Key="room_type_5.png" />
+            <PlistImageFile Name="room_type_6.png" Key="room_type_6.png" />
+            <PlistImageFile Name="room_type_7.png" Key="room_type_7.png" />
+            <PlistImageFile Name="room_type_8.png" Key="room_type_8.png" />
+            <PlistImageFile Name="room_type_9.png" Key="room_type_9.png" />
+            <PlistImageFile Name="txt_room_score.png" Key="txt_room_score.png" />
+          </PlistImageFolder>
+          <Image Name="0-9.png" />
+          <Image Name="beishu.png" />
+          <Image Name="dengji.png" />
+          <Image Name="exp.png" />
+          <Project Name="PasswdLayer.csd" Type="Layer" />
+          <Project Name="PlazaLayer.csd" Type="Layer" />
+          <Project Name="RoomItem.csd" Type="Node" />
+          <Image Name="score.png" />
+          <Image Name="shuzi.png" />
+          <Project Name="TableItem.csd" Type="Node" />
+          <Image Name="tb_num.png" />
+        </Folder>
+        <Folder Name="public_res">
+          <PlistImageFolder Image="public_res.png" PListFile="public_res.plist" Name=".public_res_PList.Dir">
+            <PlistImageFile Name="blank.png" Key="blank.png" />
+            <PlistImageFile Name="bt_close_0.png" Key="bt_close_0.png" />
+            <PlistImageFile Name="bt_close_1.png" Key="bt_close_1.png" />
+            <PlistImageFile Name="bt_list_0.png" Key="bt_list_0.png" />
+            <PlistImageFile Name="bt_list_1.png" Key="bt_list_1.png" />
+            <PlistImageFile Name="game_bg.png" Key="game_bg.png" />
+          </PlistImageFolder>
+        </Folder>
+        <Folder Name="setting">
+          <PlistImageFolder Image="setting.png" PListFile="setting.plist" Name=".setting_PList.Dir">
+            <PlistImageFile Name="setting_all_quiet.png" Key="setting_all_quiet.png" />
+            <PlistImageFile Name="setting_bg.png" Key="setting_bg.png" />
+            <PlistImageFile Name="setting_check_no.png" Key="setting_check_no.png" />
+            <PlistImageFile Name="setting_check_yes.png" Key="setting_check_yes.png" />
+            <PlistImageFile Name="setting_min.png" Key="setting_min.png" />
+            <PlistImageFile Name="setting_music.png" Key="setting_music.png" />
+            <PlistImageFile Name="setting_plus.png" Key="setting_plus.png" />
+            <PlistImageFile Name="setting_shake_close.png" Key="setting_shake_close.png" />
+            <PlistImageFile Name="setting_shake_open.png" Key="setting_shake_open.png" />
+            <PlistImageFile Name="setting_slipbar_empty.png" Key="setting_slipbar_empty.png" />
+            <PlistImageFile Name="setting_slipbar_full.png" Key="setting_slipbar_full.png" />
+            <PlistImageFile Name="setting_sound.png" Key="setting_sound.png" />
+            <PlistImageFile Name="settting_slipCoin.png" Key="settting_slipCoin.png" />
+          </PlistImageFolder>
+          <Project Name="SettingLayer.csd" Type="Layer" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

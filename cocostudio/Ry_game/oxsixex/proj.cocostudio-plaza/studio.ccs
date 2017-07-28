@@ -1,0 +1,79 @@
+<Solution>
+  <PropertyGroup Name="studio" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="fonts">
+          <TTF Name="round_body.ttf" />
+        </Folder>
+        <Folder Name="game">
+          <Folder Name="csb">
+            <Project Name="GameLayer.csd" Type="Layer" />
+            <Project Name="GameRoleItem.csd" Type="Node" />
+            <Project Name="SetLayer.csd" Type="Scene" />
+          </Folder>
+          <PlistImageFolder Image="game.png" PListFile="game.plist" Name=".game_PList.Dir">
+            <PlistImageFile Name="backtime_2.png" Key="backtime_2.png" />
+            <PlistImageFile Name="backtime_3.png" Key="backtime_3.png" />
+            <PlistImageFile Name="backtime_4.png" Key="backtime_4.png" />
+            <PlistImageFile Name="backtime_5.png" Key="backtime_5.png" />
+            <PlistImageFile Name="backtime_6.png" Key="backtime_6.png" />
+            <PlistImageFile Name="bg_clock.png" Key="bg_clock.png" />
+            <PlistImageFile Name="bt_back.png" Key="bt_back.png" />
+            <PlistImageFile Name="bt_chat_0.png" Key="bt_chat_0.png" />
+            <PlistImageFile Name="bt_chat_1.png" Key="bt_chat_1.png" />
+            <PlistImageFile Name="bt_exit_setOxex_0.png" Key="bt_exit_setOxex_0.png" />
+            <PlistImageFile Name="bt_exit_setOxex_1.png" Key="bt_exit_setOxex_1.png" />
+            <PlistImageFile Name="bt_help_oxex_0.png" Key="bt_help_oxex_0.png" />
+            <PlistImageFile Name="bt_help_oxex_1.png" Key="bt_help_oxex_1.png" />
+            <PlistImageFile Name="bt_off_oxex.png" Key="bt_off_oxex.png" />
+            <PlistImageFile Name="bt_on_oxex.png" Key="bt_on_oxex.png" />
+            <PlistImageFile Name="bt_opencard_0.png" Key="bt_opencard_0.png" />
+            <PlistImageFile Name="bt_opencard_1.png" Key="bt_opencard_1.png" />
+            <PlistImageFile Name="bt_ready_0.png" Key="bt_ready_0.png" />
+            <PlistImageFile Name="bt_ready_1.png" Key="bt_ready_1.png" />
+            <PlistImageFile Name="bt_robot_0.png" Key="bt_robot_0.png" />
+            <PlistImageFile Name="bt_robot_1.png" Key="bt_robot_1.png" />
+            <PlistImageFile Name="bt_sdcp_0.png" Key="bt_sdcp_0.png" />
+            <PlistImageFile Name="bt_sdcp_1.png" Key="bt_sdcp_1.png" />
+            <PlistImageFile Name="bt_setting_0.png" Key="bt_setting_0.png" />
+            <PlistImageFile Name="bt_setting_1.png" Key="bt_setting_1.png" />
+            <PlistImageFile Name="bt_tips_0.png" Key="bt_tips_0.png" />
+            <PlistImageFile Name="bt_tips_1.png" Key="bt_tips_1.png" />
+            <PlistImageFile Name="bt_zdcp_0.png" Key="bt_zdcp_0.png" />
+            <PlistImageFile Name="bt_zdcp_1.png" Key="bt_zdcp_1.png" />
+            <PlistImageFile Name="btn_ready_1.png" Key="btn_ready_1.png" />
+            <PlistImageFile Name="chag_frame.png" Key="chag_frame.png" />
+            <PlistImageFile Name="dizhu.png" Key="dizhu.png" />
+            <PlistImageFile Name="double_ox.png" Key="double_ox.png" />
+            <PlistImageFile Name="game_chat_0.9.png" Key="game_chat_0.9.png" />
+            <PlistImageFile Name="game_chat_1.9.png" Key="game_chat_1.9.png" />
+            <PlistImageFile Name="game_gold.png" Key="game_gold.png" />
+            <PlistImageFile Name="laba_bg.png" Key="laba_bg.png" />
+            <PlistImageFile Name="no_ox.png" Key="no_ox.png" />
+            <PlistImageFile Name="player_bg.png" Key="player_bg.png" />
+            <PlistImageFile Name="roomlist_head_bg.png" Key="roomlist_head_bg.png" />
+            <PlistImageFile Name="sp_banker.png" Key="sp_banker.png" />
+            <PlistImageFile Name="sp_bomb.png" Key="sp_bomb.png" />
+            <PlistImageFile Name="sp_effect.png" Key="sp_effect.png" />
+            <PlistImageFile Name="sp_five_f_ox.png" Key="sp_five_f_ox.png" />
+            <PlistImageFile Name="sp_five_s_ox.png" Key="sp_five_s_ox.png" />
+            <PlistImageFile Name="sp_four_f_ox.png" Key="sp_four_f_ox.png" />
+            <PlistImageFile Name="sp_music.png" Key="sp_music.png" />
+            <PlistImageFile Name="sp_title_set.png" Key="sp_title_set.png" />
+            <PlistImageFile Name="tanpai.png" Key="tanpai.png" />
+            <PlistImageFile Name="tips_wait_opencard.png" Key="tips_wait_opencard.png" />
+            <PlistImageFile Name="zhunbei.png" Key="zhunbei.png" />
+          </PlistImageFolder>
+          <Image Name="add_niu.png" />
+          <Image Name="addnum.png" />
+          <Image Name="dipai_beishu.png" />
+          <Image Name="game_bg_0.png" />
+          <Image Name="num_niu.png" />
+          <Image Name="sp_setLayerBG_oxex.png" />
+          <Image Name="subnum.png" />
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

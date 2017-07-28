@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">浙江润土科技</string>
+    <string name="invalid_token">token异常</string>
+    <string name="return_error_data">返回数据错误</string>
+    <string name="server_connection_exception">连接支付服务器异常</string>
+    <string name="init_tips">初始化...</string>
+    <string name="pay_info">获取支付信息...</string>
+    <string name="get_pay_method_failed">获取支付列表失败!</string>
+    <string name="get_token_failed">获取token失败</string>
+    <string name="pay_system_id_empty">支付数据为空</string>
+    <string name="data_exception">数据异常</string>
+    <string name="encrypt_exception">加密异常</string>
+    <string name="decrypt_exception">解密异常</string>
+    <string name="kindly_remind">温馨提示</string>
+    <string name="customer_phone_title">请联系:</string>
+    <string name="customer_qq_title">QQ:</string>
+    <string name="get_pay_status_failed">获取支付状态失败</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_failure">支付失败</string>
+    <string name="get_servers_failure">获取API失败</string>
+    <string name="net_work_not_available">网络不可用</string>
+    <string name="common_title">提示:</string>
+    <string name="wifi_tips">当前为非wifi环境，确定继续游戏？</string>
+    <string name="common_sure">确定</string>
+    <string name="common_cancel">取消</string>
+</resources>
