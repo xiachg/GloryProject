@@ -43,8 +43,6 @@ import org.cocos2dx.utils.Utils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.tencent.bugly.crashreport.CrashReport;
-
 import foxuc.qp.Glory.zjrtkj.R;
 
 import android.R.integer;
@@ -150,9 +148,6 @@ public class AppActivity extends Cocos2dxActivity{
         initShareListener();
         initPayListener();
         initLocationListener();
-        
-        //CrashReport.initCrashReport(getApplicationContext(), "90ff9b033a", false);
-        //CrashReport.testJavaCrash();
     }
     
     @Override

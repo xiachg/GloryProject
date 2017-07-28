@@ -17,7 +17,7 @@ bool CClientKernel::OnInit()
 }
 void CClientKernel::LogOut(const char *message)
 {
-	//CCLOG("[Kernel LogOut]: %s",message);
+	CCLOG("[Kernel LogOut]: %s",message);
 }
 //֪ͨ
 bool CClientKernel::OnMessageHandler(int nHandler,WORD wMain,WORD wSub)

@@ -4,7 +4,7 @@
     <Content>
       <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Scene" ctype="GameNodeObjectData">
-        <Size X="960.0000" Y="640.0000" />
+        <Size X="1334.0000" Y="750.0000" />
         <Children>
           <AbstractNodeData Name="background_sparrowHz" ActionTag="-190572981" Tag="133" IconVisible="False" LeftMargin="-0.0003" RightMargin="0.0002" TopMargin="-1.1898" BottomMargin="1.1898" ctype="SpriteObjectData">
             <Size X="1334.0000" Y="750.0000" />

@@ -755,7 +755,7 @@ function GameFrameEngine:onSocketSystemMessage(dataBuffer)
 	local bCloseGame = bit:_and(wType,yl.SMT_CLOSE_GAME)
 	local bCloseLink = bit:_and(wType,yl.SMT_CLOSE_LINK)
 	if self._viewFrame then
-	    showToast(self._viewFrame,szString,2,cc.c3b(250,0,0))
+		--showToast(self._viewFrame,szString,2,cc.c3b(250,0,0))
 	end
 	print("bCloseRoom ==> ", bCloseRoom)
 	print("bCloseGame ==> ", bCloseGame)

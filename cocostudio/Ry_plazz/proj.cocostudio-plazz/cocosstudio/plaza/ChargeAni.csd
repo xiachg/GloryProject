@@ -31,7 +31,7 @@
       <ObjectData Name="Node" Tag="28" ctype="GameNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="Sprite_1" ActionTag="-1869904392" Tag="29" IconVisible="False" LeftMargin="-46.5000" RightMargin="-46.5000" TopMargin="-35.0000" BottomMargin="-35.0000" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Sprite_1" ActionTag="-1869904392" Tag="29" IconVisible="False" LeftMargin="-78.0000" RightMargin="-78.0000" TopMargin="-72.0000" BottomMargin="-72.0000" ctype="SpriteObjectData">
             <Size X="93.0000" Y="70.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position />
@@ -39,7 +39,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="ani_charge_0.png" Plist="plaza/plaza.plist" />
+            <FileData Type="PlistSubImage" Path="ani_charge_3.png" Plist="plaza/plaza.plist" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
         </Children>

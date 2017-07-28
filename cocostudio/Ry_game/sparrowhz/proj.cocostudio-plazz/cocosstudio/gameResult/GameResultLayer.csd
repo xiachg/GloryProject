@@ -4,7 +4,7 @@
     <Content>
       <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Scene" Tag="3" ctype="GameNodeObjectData">
-        <Size X="960.0000" Y="640.0000" />
+        <Size X="1334.0000" Y="750.0000" />
         <Children>
           <AbstractNodeData Name="result_background_1" ActionTag="1185920085" Tag="108" IconVisible="False" ctype="SpriteObjectData">
             <Size X="1334.0000" Y="750.0000" />
