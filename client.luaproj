@@ -109,12 +109,6 @@
     <Folder Include="client\client\src\privatemode\plaza\src\models\" />
     <Folder Include="client\client\src\privatemode\plaza\src\views\" />
     <Folder Include="client\command\" />
-    <Folder Include="client\download\" />
-    <Folder Include="client\download\command\" />
-    <Folder Include="client\downrec\" />
-    <Folder Include="client\friend\" />
-    <Folder Include="client\friend\10614\" />
-    <Folder Include="client\friend\2\" />
     <Folder Include="client\game\" />
     <Folder Include="client\game\yule\" />
     <Folder Include="client\game\yule\baccaratnew\" />
@@ -229,23 +223,6 @@
     <Folder Include="client\game\yule\watermargin\src\models\" />
     <Folder Include="client\game\yule\watermargin\src\views\" />
     <Folder Include="client\game\yule\watermargin\src\views\layer\" />
-    <Folder Include="client\log\" />
-    <Folder Include="client\log\2017-06-20\" />
-    <Folder Include="client\log\2017-06-20\19-59\" />
-    <Folder Include="client\log\2017-06-20\20-03\" />
-    <Folder Include="client\log\2017-06-20\20-47\" />
-    <Folder Include="client\log\2017-06-20\21-22\" />
-    <Folder Include="client\log\2017-06-22\" />
-    <Folder Include="client\log\2017-06-22\16-40\" />
-    <Folder Include="client\log\2017-06-22\17-47\" />
-    <Folder Include="client\log\2017-07-11\" />
-    <Folder Include="client\log\2017-07-11\10-51\" />
-    <Folder Include="client\log\2017-07-11\10-53\" />
-    <Folder Include="client\log\2017-07-11\10-54\" />
-    <Folder Include="client\log\2017-07-11\10-55\" />
-    <Folder Include="client\log\2017-07-11\11-05\" />
-    <Folder Include="client\log\2017-07-11\11-12\" />
-    <Folder Include="client\saverec\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="client\baseupdate\base\res\background.jpg" />
@@ -1000,7 +977,6 @@
     <Content Include="client\client\src\privatemode\plaza\res\room\room.png" />
     <Content Include="client\client\src\privatemode\plaza\res\room\RoomIdInputLayer.csb" />
     <Content Include="client\client\src\privatemode\plaza\res\room\RoomInfoLayer.csb" />
-    <Content Include="client\download\command\extra_command.luac" />
     <Content Include="client\game\yule\baccaratnew\res\bank\bank.plist" />
     <Content Include="client\game\yule\baccaratnew\res\bank\bank.png" />
     <Content Include="client\game\yule\baccaratnew\res\bank\BankLayer.csb" />
@@ -2143,21 +2119,6 @@
     <Content Include="client\game\yule\watermargin\res\sound_res\yaosaizi1.mp3" />
     <Content Include="client\game\yule\watermargin\res\sound_res\ying.mp3" />
     <Content Include="client\game\yule\watermargin\res\sound_res\zhongyitang.mp3" />
-    <Content Include="client\log\2017-06-20\19-59\data.log" />
-    <Content Include="client\log\2017-06-20\20-03\data.log" />
-    <Content Include="client\log\2017-06-20\20-47\data.log" />
-    <Content Include="client\log\2017-06-20\21-22\data.log" />
-    <Content Include="client\log\2017-06-22\16-40\data.log" />
-    <Content Include="client\log\2017-06-22\17-47\data.log" />
-    <Content Include="client\log\2017-07-11\10-51\data.log" />
-    <Content Include="client\log\2017-07-11\10-53\data.log" />
-    <Content Include="client\log\2017-07-11\10-54\data.log" />
-    <Content Include="client\log\2017-07-11\10-55\data.log" />
-    <Content Include="client\log\2017-07-11\11-05\data.log" />
-    <Content Include="client\log\2017-07-11\11-12\data.log" />
-    <Content Include="client\UserDefault.xml" />
-    <Content Include="client\user_gameconfig.plist" />
-    <Content Include="client\version.plist" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="client\base\src\app\controllers\ClientUpdate.lua" />
