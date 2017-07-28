@@ -2,5 +2,5 @@
 package com.umeng_social_sdk_res_lib;
 
 public final class BuildConfig {
-    public final static boolean DEBUG = false;
+    public final static boolean DEBUG = true;
 }
